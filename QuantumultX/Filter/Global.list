@@ -70,6 +70,13 @@ IP-CIDR,66.220.144.0/20,Proxy,no-resolve
 IP-CIDR,69.171.224.0/19,Proxy,no-resolve
 IP-CIDR,69.63.176.0/20,Proxy,no-resolve
 IP-CIDR,74.119.76.0/22,Proxy,no-resolve
+IP-CIDR,31.13.24.0/21,Proxy,no-resolve
+IP-CIDR,31.13.64.0/18,Proxy,no-resolve
+IP-CIDR,45.64.40.0/22,Proxy,no-resolve
+IP-CIDR,66.220.144.0/20,Proxy,no-resolve
+IP-CIDR,69.171.224.0/19,Proxy,no-resolve
+IP-CIDR,69.63.176.0/20,Proxy,no-resolve
+IP-CIDR,74.119.76.0/22,Proxy,no-resolve
 
 # > Now E
 USER-AGENT,PCCW*,Proxy
@@ -265,6 +272,17 @@ DOMAIN-SUFFIX,storage.live.com,Outside
 DOMAIN-SUFFIX,skype.com,PROXY
 DOMAIN-SUFFIX,xboxlive.com,PROXY
 
+# > PayPal
+USER-AGENT,PayPal*,PROXY
+DOMAIN-SUFFIX,paypal.com,PROXY
+DOMAIN-SUFFIX,paypalobjects.com,PROXY
+
+# > Pornhub
+DOMAIN-SUFFIX,phncdn.com,PROXY
+DOMAIN-SUFFIX,phprcdn.com,PROXY
+DOMAIN-SUFFIX,pornhub.com,PROXY
+DOMAIN-SUFFIX,pornhubpremium.com,PROXY
+
 # > Facebook
 DOMAIN-SUFFIX,cdninstagram.com,PROXY
 DOMAIN-SUFFIX,fb.com,PROXY
@@ -303,6 +321,7 @@ DOMAIN-SUFFIX,vine.co,PROXY
 DOMAIN-KEYWORD,twitter,PROXY
 
 # > Telegram
+HOST-KEYWORD,telegram,PROXY
 DOMAIN-SUFFIX,t.me,PROXY
 DOMAIN-SUFFIX,tdesktop.com,PROXY
 DOMAIN-SUFFIX,telegra.ph,PROXY
@@ -315,6 +334,18 @@ IP-CIDR,91.108.12.0/22,PROXY
 IP-CIDR,91.108.16.0/22,PROXY
 IP-CIDR,91.108.56.0/22,PROXY
 IP-CIDR,149.154.160.0/20,PROXY
+IP-CIDR,149.154.164.0/22,PROXY
+IP-CIDR,149.154.168.0/22,PROXY
+IP-CIDR,149.154.172.0/22,PROXY
+IP-CIDR,109.239.140.0/24,PROXY
+
+# > TikTok
+USER-AGENT,TikTok*,PROXY
+HOST-KEYWORD,-tiktokcdn-com,PROXY
+DOMAIN-SUFFIX,muscdn.com,PROXY
+DOMAIN-SUFFIX,musical.ly,PROXY
+DOMAIN-SUFFIX,tiktokv.com,PROXY
+DOMAIN-SUFFIX,tiktokcdn.com,PROXY
 
 # > Line
 DOMAIN-SUFFIX,line.me,PROXY
