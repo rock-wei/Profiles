@@ -39,6 +39,9 @@ USER-AGENT,YouTubeMusic*,GlobalMedia
 USER-AGENT,All4*,GlobalMedia
 DOMAIN-SUFFIX,c4assets.com,GlobalMedia
 DOMAIN-SUFFIX,channel4.com,GlobalMedia
+# > ABC
+DOMAIN-SUFFIX,edgedatg.com,GlobalMedia
+DOMAIN-SUFFIX,go.com,GlobalMedia
 # > AbemaTV
 USER-AGENT,AbemaTV*,GlobalMedia
 DOMAIN-SUFFIX,abema.io,GlobalMedia
@@ -74,10 +77,14 @@ DOMAIN-SUFFIX,bbc.co.uk,GlobalMedia
 DOMAIN-SUFFIX,bbci.co.uk,GlobalMedia
 DOMAIN-KEYWORD,bbcfmt,GlobalMedia
 DOMAIN-KEYWORD,uk-live,GlobalMedia
+# > CHOCO TV
+USER-AGENT,TwDramas*,GlobalMedia
+DOMAIN-SUFFIX,chocotv.com.tw,GlobalMedia
 # > DAZN
 USER-AGENT,DAZN*,GlobalMedia
 DOMAIN-SUFFIX,dazn.com,GlobalMedia
 DOMAIN-SUFFIX,dazn-api.com,GlobalMedia
+DOMAIN-SUFFIX,intercom.io,GlobalMedia
 DOMAIN,d151l6v8er5bdm.cloudfront.net,GlobalMedia
 DOMAIN-KEYWORD,voddazn,GlobalMedia
 # > Disney+
@@ -87,17 +94,26 @@ DOMAIN-SUFFIX,disney-plus.net,GlobalMedia
 DOMAIN-SUFFIX,disneyplus.com,GlobalMedia
 DOMAIN-SUFFIX,dssott.com,GlobalMedia
 DOMAIN,cdn.registerdisney.go.com,GlobalMedia
+DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com,GlobalMedia
 # > encoreTVB
 USER-AGENT,encoreTVB*,GlobalMedia
 DOMAIN-SUFFIX,encoretvb.com,GlobalMedia
 DOMAIN,edge.api.brightcove.com,GlobalMedia
 DOMAIN,bcbolt446c5271-a.akamaihd.net,GlobalMedia
+# > Epicgames
+HOST-KEYWORD,epicgames,GlobalMedia
+DOMAIN-SUFFIX,helpshift.com,GlobalMedia
 # > FOX NOW
 USER-AGENT,FOX%20NOW*,GlobalMedia
 DOMAIN-SUFFIX,fox.com,GlobalMedia
 DOMAIN-SUFFIX,foxdcg.com,GlobalMedia
 DOMAIN-SUFFIX,theplatform.com,GlobalMedia
 DOMAIN-SUFFIX,uplynk.com,GlobalMedia
+# > Fox+ (HK|TW|SG)
+USER-AGENT,FOXPlus*,GlobalMedia
+DOMAIN-SUFFIX,akamaized.net,GlobalMedia
+DOMAIN-SUFFIX,foxplus.com,GlobalMedia
+DOMAIN-SUFFIX,theplatform.com,GlobalMedia
 # > HBO NOW
 USER-AGENT,HBO%20NOW*,GlobalMedia
 DOMAIN-SUFFIX,hbo.com,GlobalMedia
@@ -118,7 +134,7 @@ DOMAIN,hboasia3-i.akamaihd.net,GlobalMedia
 DOMAIN,hboasia4-i.akamaihd.net,GlobalMedia
 DOMAIN,hboasia5-i.akamaihd.net,GlobalMedia
 DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,GlobalMedia
-# > 华文电视
+# > HWTV华文电视
 USER-AGENT,HWTVMobile*,GlobalMedia
 DOMAIN-SUFFIX,5itv.tv,GlobalMedia
 DOMAIN-SUFFIX,ocnttv.com,GlobalMedia
@@ -127,13 +143,28 @@ DOMAIN-SUFFIX,hulu.com,GlobalMedia
 DOMAIN-SUFFIX,huluim.com,GlobalMedia
 DOMAIN-SUFFIX,hulustream.com,GlobalMedia
 # > Hulu(フールー)
+USER-AGENT,Hulu*,GlobalMedia
 DOMAIN-SUFFIX,happyon.jp,GlobalMedia
 DOMAIN-SUFFIX,hulu.jp,GlobalMedia
+# > Imkan
+DOMAIN-SUFFIX,imkan.tv,GlobalMedia
 # > ITV
 USER-AGENT,ITV_Player*,GlobalMedia
 DOMAIN-SUFFIX,itv.com,GlobalMedia
 DOMAIN-SUFFIX,itvstatic.com,GlobalMedia
 DOMAIN,itvpnpmobile-a.akamaihd.net,GlobalMedia
+# > Japonx
+HOST-KEYWORD,japonx,GlobalMedia
+HOST-KEYWORD,japronx,GlobalMedia
+DOMAIN-SUFFIX,japonx.com,GlobalMedia
+DOMAIN-SUFFIX,japonx.tv,GlobalMedia
+DOMAIN-SUFFIX,japonx.net,GlobalMedia
+DOMAIN-SUFFIX,japonx.vip,GlobalMedia
+DOMAIN-SUFFIX,japronx.com,GlobalMedia
+DOMAIN-SUFFIX,japronx.tv,GlobalMedia
+DOMAIN-SUFFIX,japronx.net,GlobalMedia
+DOMAIN-SUFFIX,japronx.vip,GlobalMedia
+
 # > KKTV
 USER-AGENT,KKTV*,GlobalMedia
 USER-AGENT,com.kktv.ios.kktv*,GlobalMedia
@@ -185,12 +216,22 @@ IP-CIDR,108.175.32.0/20,GlobalMedia
 IP-CIDR,192.173.64.0/18,GlobalMedia
 IP-CIDR,198.38.96.0/19,GlobalMedia
 IP-CIDR,198.45.48.0/20,GlobalMedia
+# > Sky GO
+USER-AGENT,skygo*,GlobalMedia
+DOMAIN-SUFFIX,sky.com,GlobalMedia
+DOMAIN-SUFFIX,skygo.co.nz,GlobalMedia
 # > niconico
 USER-AGENT,Niconico*,GlobalMedia
 DOMAIN-SUFFIX,dmc.nico,GlobalMedia
 DOMAIN-SUFFIX,nicovideo.jp,GlobalMedia
 DOMAIN-SUFFIX,nimg.jp,GlobalMedia
 DOMAIN-SUFFIX,socdm.com,GlobalMedia
+# > Now E
+USER-AGENT,PCCW*,GlobalMedia
+HOST-KEYWORD,nowe,GlobalMedia
+HOST,bcbolthboa-a.akamaihd.net,GlobalMedia
+DOMAIN-SUFFIX,nowe.com,GlobalMedia
+DOMAIN-SUFFIX,youboranqs01.com,GlobalMedia
 # > PBS
 USER-AGENT,PBS*,GlobalMedia
 DOMAIN-SUFFIX,pbs.org,GlobalMedia
@@ -199,7 +240,7 @@ DOMAIN-SUFFIX,phncdn.com,GlobalMedia
 DOMAIN-SUFFIX,phprcdn.com,GlobalMedia
 DOMAIN-SUFFIX,pornhub.com,GlobalMedia
 DOMAIN-SUFFIX,pornhubpremium.com,GlobalMedia
-# > 台湾好
+# > TaiwanGood台湾好
 USER-AGENT,TaiwanGood*,GlobalMedia
 DOMAIN-SUFFIX,skyking.com.tw,GlobalMedia
 DOMAIN,hamifans.emome.net,GlobalMedia
@@ -220,6 +261,8 @@ DOMAIN,dfp6rglgjqszk.cloudfront.net,GlobalMedia
 # > YouTube
 USER-AGENT,com.google.ios.youtube*,GlobalMedia
 USER-AGENT,YouTube*,GlobalMedia
+HOST-KEYWORD,youtube,GlobalMedia
 DOMAIN-SUFFIX,googlevideo.com,GlobalMedia
 DOMAIN-SUFFIX,youtube.com,GlobalMedia
 DOMAIN,youtubei.googleapis.com,GlobalMedia
+HOST,youtubei.googleapis.com,GlobalMedia
