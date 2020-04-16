@@ -1,4 +1,247 @@
 # (DNS Cache Pollution Protection)
+
+# > ABC
+DOMAIN-SUFFIX,edgedatg.com,Proxy
+DOMAIN-SUFFIX,go.com,Proxy
+
+# > AbemaTV
+USER-AGENT,AbemaTV*,Proxy
+DOMAIN-SUFFIX,abema.io,Proxy
+DOMAIN-SUFFIX,akamaized.net,Proxy
+DOMAIN-SUFFIX,ameba.jp,Proxy
+DOMAIN-SUFFIX,hayabusa.io,Proxy
+
+# > Amazon
+IP-CIDR,13.32.0.0/16,Proxy,no-resolve
+IP-CIDR,13.33.0.0/16,Proxy,no-resolve
+IP-CIDR,13.35.0.0/17,Proxy,no-resolve
+IP-CIDR,18.184.0.0/15,Proxy,no-resolve
+IP-CIDR,18.194.0.0/15,Proxy,no-resolve
+IP-CIDR,18.208.0.0/13,Proxy,no-resolve
+IP-CIDR,18.232.0.0/14,Proxy,no-resolve
+IP-CIDR,52.200.0.0/13,Proxy,no-resolve
+IP-CIDR,52.58.0.0/15,Proxy,no-resolve
+IP-CIDR,52.74.0.0/16,Proxy,no-resolve
+IP-CIDR,52.77.0.0/16,Proxy,no-resolve
+IP-CIDR,52.84.0.0/15,Proxy,no-resolve
+IP-CIDR,54.156.0.0/14,Proxy,no-resolve
+IP-CIDR,54.226.0.0/15,Proxy,no-resolve
+IP-CIDR,54.230.156.0/22,Proxy,no-resolve
+IP-CIDR,54.93.0.0/16,Proxy,no-resolve
+
+
+# > BBC
+USER-AGENT,BBCiPlayer*,Proxy
+DOMAIN-KEYWORD,bbcfmt,Proxy
+DOMAIN-KEYWORD,co.uk,Proxy
+DOMAIN-KEYWORD,uk-live,Proxy
+DOMAIN-SUFFIX,bbc.co,Proxy
+DOMAIN-SUFFIX,bbc.co.uk,Proxy
+DOMAIN-SUFFIX,bbc.com,Proxy
+DOMAIN-SUFFIX,bbci.co,Proxy
+DOMAIN-SUFFIX,bbci.co.uk,Proxy
+
+# > CHOCO TV
+USER-AGENT,TwDramas*,Proxy
+DOMAIN-SUFFIX,chocotv.com.tw,Proxy
+
+# > Disney Plus
+USER-AGENT,Disney*,Proxy
+DOMAIN,cdn.registerdisney.go.com,Proxy
+DOMAIN-SUFFIX,disneyplus.com,Proxy
+DOMAIN-SUFFIX,disney-plus.net,Proxy
+DOMAIN-SUFFIX,dssott.com,Proxy
+DOMAIN-SUFFIX,bamgrid.com,Proxy
+DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com,Proxy
+
+# > Facebook
+IP-CIDR,103.4.96.0/22,Proxy,no-resolve
+IP-CIDR,129.134.0.0/17,Proxy,no-resolve
+IP-CIDR,157.240.0.0/17,Proxy,no-resolve
+IP-CIDR,173.252.64.0/19,Proxy,no-resolve
+IP-CIDR,173.252.96.0/19,Proxy,no-resolve
+IP-CIDR,179.60.192.0/22,Proxy,no-resolve
+IP-CIDR,185.60.216.0/22,Proxy,no-resolve
+IP-CIDR,204.15.20.0/22,Proxy,no-resolve
+IP-CIDR,31.13.24.0/21,Proxy,no-resolve
+IP-CIDR,31.13.64.0/18,Proxy,no-resolve
+IP-CIDR,45.64.40.0/22,Proxy,no-resolve
+IP-CIDR,66.220.144.0/20,Proxy,no-resolve
+IP-CIDR,69.171.224.0/19,Proxy,no-resolve
+IP-CIDR,69.63.176.0/20,Proxy,no-resolve
+IP-CIDR,74.119.76.0/22,Proxy,no-resolve
+
+# > Now E
+USER-AGENT,PCCW*,Proxy
+DOMAIN-KEYWORD,nowe,Proxy
+DOMAIN,bcbolthboa-a.akamaihd.net,Proxy
+DOMAIN-SUFFIX,nowe.com,Proxy
+DOMAIN-SUFFIX,youboranqs01.com,Proxy
+
+# > Epicgames
+DOMAIN-KEYWORD,epicgames,Proxy
+DOMAIN-SUFFIX,helpshift.com,Proxy
+
+# > Fox+
+USER-AGENT,FOX%20NOW*,Proxy
+USER-AGENT,FOXPlus*,Proxy
+DOMAIN-KEYWORD,foxplus,Proxy
+DOMAIN-SUFFIX,config.fox.com,Proxy
+DOMAIN-SUFFIX,emome.net,Proxy
+DOMAIN-SUFFIX,fox.com,Proxy
+DOMAIN-SUFFIX,foxdcg.com,Proxy
+DOMAIN-SUFFIX,foxnow.com,Proxy
+DOMAIN-SUFFIX,foxplus.com,Proxy
+DOMAIN-SUFFIX,foxplay.com,Proxy
+DOMAIN-SUFFIX,ipinfo.io,Proxy
+DOMAIN-SUFFIX,mstage.io,Proxy
+DOMAIN-SUFFIX,now.com,Proxy
+DOMAIN-SUFFIX,theplatform.com,Proxy
+DOMAIN-SUFFIX,urlload.net,Proxy
+
+# > HBO && HBO Go
+USER-AGENT,HBO%20NOW*,Proxy
+DOMAIN-SUFFIX,execute-api.ap-southeast-1.amazonaws.com,Proxy
+DOMAIN-SUFFIX,hbo.com,Proxy
+DOMAIN-SUFFIX,hboasia.com,Proxy
+DOMAIN-SUFFIX,hbogo.com,Proxy
+DOMAIN-SUFFIX,hbogoasia.com,Proxy
+DOMAIN-SUFFIX,hbogoasia.hk,Proxy
+
+# > Hulu
+USER-AGENT,Hulu*,Proxy
+DOMAIN-SUFFIX,happyon.jp,Proxy
+DOMAIN-SUFFIX,hulu.com,Proxy
+DOMAIN-SUFFIX,huluim.com,Proxy
+DOMAIN-SUFFIX,hulustream.com,Proxy
+
+# > Imkan
+DOMAIN-SUFFIX,imkan.tv,Proxy
+
+# > JOOX
+USER-AGENT,WeMusic*,Proxy
+USER-AGENT,JOOX*,Proxy
+DOMAIN-SUFFIX,joox.com,Proxy
+
+# > Kakao Talk
+IP-CIDR,1.201.0.0/24,Proxy,no-resolve
+IP-CIDR,103.246.56.0/22,Proxy,no-resolve
+IP-CIDR,103.27.148.0/22,Proxy,no-resolve
+IP-CIDR,110.76.140.0/22,Proxy,no-resolve
+IP-CIDR,113.61.104.0/22,Proxy,no-resolve
+IP-CIDR,27.0.236.0/22,Proxy,no-resolve
+
+
+# > MytvSUPER
+USER-AGENT,mytv*,Proxy
+DOMAIN-KEYWORD,nowtv100,Proxy
+DOMAIN-KEYWORD,rthklive,Proxy
+DOMAIN-SUFFIX,mytvsuper.com,Proxy
+DOMAIN-SUFFIX,tvb.com,Proxy
+
+# > Netflix
+DOMAIN-SUFFIX,netflix.com,Proxy
+DOMAIN-SUFFIX,netflix.net,Proxy
+DOMAIN-SUFFIX,nflxext.com,Proxy
+DOMAIN-SUFFIX,nflximg.com,Proxy
+DOMAIN-SUFFIX,nflximg.net,Proxy
+DOMAIN-SUFFIX,nflxso.net,Proxy
+DOMAIN-SUFFIX,nflxvideo.net,Proxy
+
+# > Pandora
+DOMAIN-SUFFIX,pandora.com,Proxy
+
+# > Sky GO
+USER-AGENT,skygo*,Proxy
+DOMAIN-SUFFIX,sky.com,Proxy
+DOMAIN-SUFFIX,skygo.co.nz,Proxy
+
+# > SoundCloud
+USER-AGENT,SoundCloud*,Proxy
+
+# > Spotify
+USER-AGENT,*Spotify*,Proxy
+DOMAIN-KEYWORD,spotify,Proxy
+DOMAIN-SUFFIX,scdn.co,Proxy
+DOMAIN-SUFFIX,spoti.fi,Proxy
+
+# > viuTV
+USER-AGENT,ViuTV*,Proxy
+DOMAIN-SUFFIX,cloudfront.net,Proxy
+DOMAIN-SUFFIX,viu.com,Proxy
+DOMAIN-SUFFIX,viu.tv,Proxy
+DOMAIN-SUFFIX,viu.now.com,Proxy
+
+# > Youtube
+USER-AGENT,*youtube*,Proxy
+USER-AGENT,YouTube*,Proxy
+DOMAIN-KEYWORD,youtube,Proxy
+DOMAIN-SUFFIX,googlevideo.com,Proxy
+DOMAIN-SUFFIX,gvt2.com,Proxy
+DOMAIN-SUFFIX,youtu.be,Proxy
+
+
+# > UA
+USER-AGENT,%E7%BA%BD%E7%BA%A6%E6%97%B6%E6%8A%A5*,Proxy
+USER-AGENT,AwemeI18n*,Proxy
+USER-AGENT,Coinbase*,Proxy
+USER-AGENT,Instagram*,Proxy
+USER-AGENT,Resilio Sync*,Proxy
+USER-AGENT,WhatsApp*,Proxy
+
+# > Line
+DOMAIN-SUFFIX,lin.ee,Proxy
+DOMAIN-SUFFIX,line.me,Proxy
+DOMAIN-SUFFIX,line.naver.jp,Proxy
+DOMAIN-SUFFIX,line-apps.com,Proxy
+DOMAIN-SUFFIX,line-cdn.net,Proxy
+DOMAIN-SUFFIX,line-scdn.net,Proxy
+DOMAIN-SUFFIX,nhncorp.jp,Proxy
+IP-CIDR,103.2.28.0/22,Proxy,no-resolve
+IP-CIDR,119.235.224.0/21,Proxy,no-resolve
+IP-CIDR,119.235.232.0/23,Proxy,no-resolve
+IP-CIDR,119.235.235.0/24,Proxy,no-resolve
+IP-CIDR,119.235.236.0/23,Proxy,no-resolve
+IP-CIDR,125.6.146.0/24,Proxy,no-resolve
+IP-CIDR,125.6.149.0/24,Proxy,no-resolve
+IP-CIDR,125.6.190.0/24,Proxy,no-resolve
+IP-CIDR,125.209.208.0/20,Proxy,no-resolve
+IP-CIDR,203.104.103.0/24,Proxy,no-resolve
+IP-CIDR,203.104.128.0/20,Proxy,no-resolve
+IP-CIDR,203.174.66.64/26,Proxy,no-resolve
+IP-CIDR,203.174.77.0/24,Proxy,no-resolve
+
+# > Potato Chat
+IP-CIDR,13.251.24.157/24,Proxy,no-resolve
+IP-CIDR,13.251.41.203/24,Proxy,no-resolve
+IP-CIDR,17.252.156.147/24,Proxy,no-resolve
+IP-CIDR,17.252.157.26/24,Proxy,no-resolve
+
+# > SoftLayer
+IP-CIDR,74.86.0.0/16,Proxy,no-resolve
+IP-CIDR,75.126.0.0/16,Proxy,no-resolve
+IP-CIDR,174.37.0.0/16,Proxy,no-resolve
+IP-CIDR,208.43.0.0/16,Proxy,no-resolve
+
+# > Spark
+DOMAIN-SUFFIX,api.amplitude.com,Proxy
+DOMAIN-SUFFIX,app.smartmailcloud.com,Proxy
+DOMAIN-SUFFIX,gate.hockeyapp.net,Proxy
+DOMAIN-SUFFIX,smartmailcloud.com,Proxy
+
+# > Steam
+DOMAIN-SUFFIX,fanatical.com,Proxy
+DOMAIN-SUFFIX,humblebundle.com,Proxy
+DOMAIN-SUFFIX,steamcommunity.com,Proxy
+DOMAIN-SUFFIX,steampowered.com,Proxy
+DOMAIN-SUFFIX,steamstatic.com,Proxy
+
+# > V2EX
+DOMAIN-SUFFIX,v2ex.com,Proxy
+
+# > Zooba
+USER-AGENT,battleroyale*,Proxy
+
 # > Google
 DOMAIN-SUFFIX,ampproject.org,PROXY
 DOMAIN-SUFFIX,appspot.com,PROXY
@@ -10,9 +253,18 @@ DOMAIN-SUFFIX,gvt3.com,PROXY
 DOMAIN-SUFFIX,xn--ngstr-lra8j.com,PROXY
 DOMAIN-KEYWORD,google,PROXY
 DOMAIN-KEYWORD,blogspot,PROXY
-# > Microsoft
+IP-CIDR,173.194.0.0/16,Proxy,no-resolve
+IP-CIDR,74.125.0.0/16,Proxy,no-resolve
+
+# > Microsoft Proxy
+USER-AGENT,OneDrive*,PROXY
+HOST-KEYWORD,onedrive,PROXY
+DOMAIN-SUFFIX,onedrive.com,PROXY
 DOMAIN-SUFFIX,onedrive.live.com,PROXY
+DOMAIN-SUFFIX,storage.live.com,Outside
+DOMAIN-SUFFIX,skype.com,PROXY
 DOMAIN-SUFFIX,xboxlive.com,PROXY
+
 # > Facebook
 DOMAIN-SUFFIX,cdninstagram.com,PROXY
 DOMAIN-SUFFIX,fb.com,PROXY
@@ -39,6 +291,7 @@ IP-CIDR,54.162.243.80/32,PROXY
 IP-CIDR,54.173.34.141/32,PROXY
 IP-CIDR,54.235.23.242/32,PROXY
 IP-CIDR,169.45.248.118/32,PROXY
+
 # > Twitter
 DOMAIN-SUFFIX,pscp.tv,PROXY
 DOMAIN-SUFFIX,periscope.tv,PROXY
@@ -48,6 +301,7 @@ DOMAIN-SUFFIX,twimg.com,PROXY
 DOMAIN-SUFFIX,twitpic.com,PROXY
 DOMAIN-SUFFIX,vine.co,PROXY
 DOMAIN-KEYWORD,twitter,PROXY
+
 # > Telegram
 DOMAIN-SUFFIX,t.me,PROXY
 DOMAIN-SUFFIX,tdesktop.com,PROXY
@@ -61,6 +315,7 @@ IP-CIDR,91.108.12.0/22,PROXY
 IP-CIDR,91.108.16.0/22,PROXY
 IP-CIDR,91.108.56.0/22,PROXY
 IP-CIDR,149.154.160.0/20,PROXY
+
 # > Line
 DOMAIN-SUFFIX,line.me,PROXY
 DOMAIN-SUFFIX,line-apps.com,PROXY
@@ -70,68 +325,166 @@ IP-CIDR,103.2.30.0/23,PROXY
 IP-CIDR,125.209.208.0/20,PROXY
 IP-CIDR,147.92.128.0/17,PROXY
 IP-CIDR,203.104.144.0/21,PROXY
+
 # > Other
+DOMAIN-SUFFIX,2o7.net,Proxy
+DOMAIN-SUFFIX,4everProxy.com,Proxy
+DOMAIN-SUFFIX,4shared.com,Proxy
+DOMAIN-SUFFIX,4sqi.net,Proxy
 DOMAIN-SUFFIX,4shared.com,PROXY
 DOMAIN-SUFFIX,520cc.cc,PROXY
 DOMAIN-SUFFIX,881903.com,PROXY
 DOMAIN-SUFFIX,9cache.com,PROXY
 DOMAIN-SUFFIX,9gag.com,PROXY
+DOMAIN-SUFFIX,9to5mac.com,Proxy
 DOMAIN-SUFFIX,abc.com,PROXY
 DOMAIN-SUFFIX,abc.net.au,PROXY
 DOMAIN-SUFFIX,abebooks.com,PROXY
+DOMAIN-SUFFIX,abpchina.org,Proxy
+DOMAIN-SUFFIX,accountkit.com,Proxy
+DOMAIN-SUFFIX,adblockplus.org,Proxy
+DOMAIN-SUFFIX,adobe.com,Proxy
+DOMAIN-SUFFIX,adobedtm.com,Proxy
+DOMAIN-SUFFIX,aerisapi.com,Proxy
+DOMAIN-SUFFIX,akamaihd.net,Proxy
+DOMAIN-SUFFIX,airtable.com,Proxy
+DOMAIN-SUFFIX,alfredapp.com,Proxy
+DOMAIN-SUFFIX,allconnected.co,Proxy
+DOMAIN-SUFFIX,amazon.com,Proxy
 DOMAIN-SUFFIX,amazon.co.jp,PROXY
+DOMAIN-SUFFIX,amazonaws.com,Proxy
+DOMAIN-SUFFIX,ampproject.com,Proxy
+DOMAIN-SUFFIX,ampproject.net,Proxy
+DOMAIN-SUFFIX,ampproject.org,Proxy
+DOMAIN-SUFFIX,anaconda.com,Proxy
+DOMAIN-SUFFIX,ancsconf.org,Proxy
+DOMAIN-SUFFIX,android.com,Proxy
+DOMAIN-SUFFIX,androidify.com,Proxy
+DOMAIN-SUFFIX,android-x86.org,Proxy
+DOMAIN-SUFFIX,angularjs.org,Proxy
+DOMAIN-SUFFIX,anthonycalzadilla.com,Proxy
+DOMAIN-SUFFIX,aol.com,Proxy
+DOMAIN-SUFFIX,aolcdn.com,Proxy
+DOMAIN-SUFFIX,api.mixpanel.com,Proxy
+DOMAIN-SUFFIX,api.termius.com,Proxy
+DOMAIN-SUFFIX,api.tiktokv.com,Proxy
+DOMAIN-SUFFIX,api.urbandictionary.com,Proxy
 DOMAIN-SUFFIX,apigee.com,PROXY
 DOMAIN-SUFFIX,apk-dl.com,PROXY
 DOMAIN-SUFFIX,apkfind.com,PROXY
 DOMAIN-SUFFIX,apkmirror.com,PROXY
 DOMAIN-SUFFIX,apkmonk.com,PROXY
 DOMAIN-SUFFIX,apkpure.com,PROXY
+DOMAIN-SUFFIX,appdownloader.net,Proxy
+DOMAIN-SUFFIX,apple-dns.net,Proxy
+DOMAIN-SUFFIX,app-measurement.com,Proxy
+DOMAIN-SUFFIX,appshopper.com,Proxy
 DOMAIN-SUFFIX,aptoide.com,PROXY
 DOMAIN-SUFFIX,archive.is,PROXY
+DOMAIN-SUFFIX,archives.gov,Proxy
 DOMAIN-SUFFIX,archive.org,PROXY
+DOMAIN-SUFFIX,arcgis.com,Proxy
+DOMAIN-SUFFIX,armorgames.com,Proxy
 DOMAIN-SUFFIX,arte.tv,PROXY
 DOMAIN-SUFFIX,artstation.com,PROXY
 DOMAIN-SUFFIX,arukas.io,PROXY
 DOMAIN-SUFFIX,ask.com,PROXY
+DOMAIN-SUFFIX,aspnetcdn.com,Proxy
+DOMAIN-SUFFIX,async.be,Proxy
+DOMAIN-SUFFIX,att.com,Proxy
 DOMAIN-SUFFIX,avg.com,PROXY
 DOMAIN-SUFFIX,avgle.com,PROXY
+DOMAIN-SUFFIX,awsstatic.com,Proxy
+DOMAIN-SUFFIX,azure.com,Proxy
+DOMAIN-SUFFIX,azureedge.net,Proxy
+DOMAIN-SUFFIX,azurewebsites.net,Proxy
 DOMAIN-SUFFIX,badoo.com,PROXY
+DOMAIN-SUFFIX,bandisoft.com,Proxy
 DOMAIN-SUFFIX,bandwagonhost.com,PROXY
 DOMAIN-SUFFIX,bbc.com,PROXY
+DOMAIN-SUFFIX,bbtoystore.com,Proxy
 DOMAIN-SUFFIX,behance.net,PROXY
+DOMAIN-SUFFIX,betvictor.com,Proxy
 DOMAIN-SUFFIX,bibox.com,PROXY
 DOMAIN-SUFFIX,biggo.com.tw,PROXY
+DOMAIN-SUFFIX,bigsound.org,Proxy
 DOMAIN-SUFFIX,binance.com,PROXY
+DOMAIN-SUFFIX,bing.com,Proxy
+DOMAIN-SUFFIX,bing.net,Proxy
+DOMAIN-SUFFIX,bintray.com,Proxy
+DOMAIN-SUFFIX,bit.com,Proxy
+DOMAIN-SUFFIX,bit.do,Proxy
+DOMAIN-SUFFIX,bit.ly,Proxy
+DOMAIN-SUFFIX,bitbucket.org,Proxy
 DOMAIN-SUFFIX,bitcointalk.org,PROXY
 DOMAIN-SUFFIX,bitfinex.com,PROXY
 DOMAIN-SUFFIX,bitmex.com,PROXY
+DOMAIN-SUFFIX,bitshare.com,Proxy
 DOMAIN-SUFFIX,bit-z.com,PROXY
+DOMAIN-SUFFIX,bkrtx.com,Proxy
+DOMAIN-SUFFIX,blog.com,Proxy
 DOMAIN-SUFFIX,bloglovin.com,PROXY
+DOMAIN-SUFFIX,blogcdn.com,Proxy
+DOMAIN-SUFFIX,blogger.com,Proxy
+DOMAIN-SUFFIX,bloglovin.com,Proxy
+DOMAIN-SUFFIX,blogsmithmedia.com,Proxy
+DOMAIN-SUFFIX,blogspot.hk,Proxy
 DOMAIN-SUFFIX,bloomberg.cn,PROXY
 DOMAIN-SUFFIX,bloomberg.com,PROXY
 DOMAIN-SUFFIX,blubrry.com,PROXY
 DOMAIN-SUFFIX,book.com.tw,PROXY
 DOMAIN-SUFFIX,booklive.jp,PROXY
 DOMAIN-SUFFIX,books.com.tw,PROXY
+DOMAIN-SUFFIX,boomtrain.com,Proxy
 DOMAIN-SUFFIX,boslife.net,PROXY
+DOMAIN-SUFFIX,botanwang.com,Proxy
 DOMAIN-SUFFIX,box.com,PROXY
+DOMAIN-SUFFIX,box.net,Proxy
+DOMAIN-SUFFIX,boxun.com,Proxy
 DOMAIN-SUFFIX,businessinsider.com,PROXY
 DOMAIN-SUFFIX,bwh1.net,PROXY
+DOMAIN-SUFFIX,cachefly.net,Proxy
 DOMAIN-SUFFIX,castbox.fm,PROXY
 DOMAIN-SUFFIX,cbc.ca,PROXY
+DOMAIN-SUFFIX,cdn.segment.com,Proxy
+DOMAIN-SUFFIX,cdnst.net,Proxy
 DOMAIN-SUFFIX,cdw.com,PROXY
+DOMAIN-SUFFIX,celestrak.com,Proxy
+DOMAIN-SUFFIX,census.gov,Proxy
+DOMAIN-SUFFIX,certificate-transparency.org,Proxy
 DOMAIN-SUFFIX,change.org,PROXY
 DOMAIN-SUFFIX,channelnewsasia.com,PROXY
+DOMAIN-SUFFIX,chinadigitaltimes.net,Proxy
+DOMAIN-SUFFIX,chinatimes.com,Proxy
+DOMAIN-SUFFIX,chrome.com,Proxy
+DOMAIN-SUFFIX,chromecast.com,Proxy
+DOMAIN-SUFFIX,chromercise.com,Proxy
+DOMAIN-SUFFIX,chromestatus.com,Proxy
+DOMAIN-SUFFIX,chromium.org,Proxy
 DOMAIN-SUFFIX,ck101.com,PROXY
 DOMAIN-SUFFIX,clarionproject.org,PROXY
+DOMAIN-SUFFIX,cl.ly,Proxy
+DOMAIN-SUFFIX,cloudflare.com,Proxy
+DOMAIN-SUFFIX,cloudfront.net,Proxy
+DOMAIN-SUFFIX,cloudgarage.jp,Proxy
+DOMAIN-SUFFIX,cloudmagic.com,Proxy
 DOMAIN-SUFFIX,clyp.it,PROXY
+DOMAIN-SUFFIX,cmail19.com,Proxy
 DOMAIN-SUFFIX,cna.com.tw,PROXY
+DOMAIN-SUFFIX,cnet.com,Proxy
+DOMAIN-SUFFIX,cnn.com,Proxy
+DOMAIN-SUFFIX,cocoapods.org,Proxy
+DOMAIN-SUFFIX,comodoca.com,Proxy
+DOMAIN-SUFFIX,content.office.net,Proxy
 DOMAIN-SUFFIX,comparitech.com,PROXY
 DOMAIN-SUFFIX,conoha.jp,PROXY
+DOMAIN-SUFFIX,culturedcode.com,Proxy
+DOMAIN-SUFFIX,cygames.jp,Proxy
 DOMAIN-SUFFIX,crucial.com,PROXY
 DOMAIN-SUFFIX,cts.com.tw,PROXY
 DOMAIN-SUFFIX,cw.com.tw,PROXY
 DOMAIN-SUFFIX,cyberctm.com,PROXY
+DOMAIN-SUFFIX,d.pr,Proxy
 DOMAIN-SUFFIX,dailymotion.com,PROXY
 DOMAIN-SUFFIX,dailyview.tw,PROXY
 DOMAIN-SUFFIX,daum.net,PROXY
