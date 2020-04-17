@@ -894,8 +894,9 @@ DOMAIN-SUFFIX,servebom.com,Proxy
 DOMAIN-SUFFIX,sexinsex.com,Proxy
 DOMAIN-SUFFIX,sfx.ms,Proxy
 DOMAIN-SUFFIX,shadowverse.jp,Proxy
-DOMAIN-SUFDOMAIN-SUFFIX,sharethis.com,Proxy
-DOMAIN-SUFFIX,shazam.com,ProxyFIX,shadowsocks.org,PROXY
+DOMAIN-SUFFIX,sharethis.com,Proxy
+DOMAIN-SUFFIX,shazam.com,Proxy
+DOMAIN-SUFFIX,shadowsocks.org,PROXY
 DOMAIN-SUFFIX,shopee.tw,PROXY
 DOMAIN-SUFFIX,shutterstock.com,Proxy
 DOMAIN-SUFFIX,sidelinesnews.com,Proxy
