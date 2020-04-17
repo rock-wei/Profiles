@@ -523,7 +523,8 @@ DOMAIN-SUFFIX,daolan.net,Proxy
 DOMAIN-SUFFIX,data-vocabulary.org,Proxy
 DOMAIN-SUFFIX,dayone.me,Prox
 DOMAIN-SUFFIX,daum.net,PROXY
-DOMAIN-SUFFIX,daumcdn.net,PROXYDOMAIN-SUFFIX,db.tt,Proxy
+DOMAIN-SUFFIX,daumcdn.net,PROXY
+DOMAIN-SUFFIX,db.tt,Proxy
 DOMAIN-SUFFIX,dcmilitary.com,Proxy
 DOMAIN-SUFFIX,deja.com,Proxy
 DOMAIN-SUFFIX,demdex.net,Proxy
