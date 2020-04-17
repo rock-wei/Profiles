@@ -312,7 +312,6 @@ DOMAIN-SUFFIX,hxsame.hexun.com,REJECT
 DOMAIN-SUFFIX,itv.hexun.com,REJECT
 DOMAIN-SUFFIX,utrack.hexun.com,REJECT
 
-
 # > The Paper
 DOMAIN,admonitor.thepaper.cn,REJECT
 DOMAIN,adpai.thepaper.cn,REJECT
@@ -470,9 +469,6 @@ DOMAIN-SUFFIX,bfshan.cn,REJECT
 DOMAIN,apppv.zol.com.cn,REJECT
 DOMAIN,pvnapp.zol.com.cn,REJECT
 
-
-
-
 # REJECT
 
 # > Client
@@ -550,7 +546,6 @@ DOMAIN-KEYWORD,umtrack,REJECT
 DOMAIN-KEYWORD,uploadMobileData,REJECT
 DOMAIN-KEYWORD,wlmonitor,REJECT
 DOMAIN-KEYWORD,zjtoolbar,REJECT
-
 DOMAIN-SUFFIX,0.r.msn.com,REJECT
 DOMAIN-SUFFIX,000dn.com,REJECT
 DOMAIN-SUFFIX,001union.com,REJECT
