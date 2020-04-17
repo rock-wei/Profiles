@@ -85,13 +85,13 @@ domain-suffix,nowe.com,proxy
 domain-suffix,youboranqs01.com,proxy
 
 # > Epicgames
-domin-keyword,epicgames,proxy
+domain-keyword,epicgames,proxy
 domain-suffix,helpshift.com,proxy
 
 # > Fox+
 user-agent,FOX%20NOW*,proxy
 user-agent,FOXPlus*,proxy
-domin-keyword,foxplus,proxy
+domain-keyword,foxplus,proxy
 domain-suffix,config.fox.com,proxy
 domain-suffix,emome.net,proxy
 domain-suffix,fox.com,proxy
@@ -139,8 +139,8 @@ IP-CIDR,27.0.236.0/22,proxy,no-resolve
 
 # > MytvSUPER
 user-agent,mytv*,proxy
-domin-keyword,nowtv100,proxy
-domin-keyword,rthklive,proxy
+domain-keyword,nowtv100,proxy
+domain-keyword,rthklive,proxy
 domain-suffix,mytvsuper.com,proxy
 domain-suffix,tvb.com,proxy
 
@@ -166,7 +166,7 @@ user-agent,SoundCloud*,proxy
 
 # > Spotify
 user-agent,*Spotify*,proxy
-domin-keyword,spotify,proxy
+domain-keyword,spotify,proxy
 domain-suffix,scdn.co,proxy
 domain-suffix,spoti.fi,proxy
 
@@ -180,7 +180,7 @@ domain-suffix,viu.now.com,proxy
 # > Youtube
 user-agent,*youtube*,proxy
 user-agent,YouTube*,proxy
-domin-keyword,youtube,proxy
+domain-keyword,youtube,proxy
 domain-suffix,googlevideo.com,proxy
 domain-suffix,gvt2.com,proxy
 domain-suffix,youtu.be,proxy
@@ -256,8 +256,8 @@ domain-suffix,gvt0.com,proxy
 domain-suffix,gvt1.com,proxy
 domain-suffix,gvt3.com,proxy
 domain-suffix,xn--ngstr-lra8j.com,proxy
-domin-keyword,google,proxy
-domin-keyword,blogspot,proxy
+domain-keyword,google,proxy
+domain-keyword,blogspot,proxy
 IP-CIDR,173.194.0.0/16,proxy,no-resolve
 IP-CIDR,74.125.0.0/16,proxy,no-resolve
 
@@ -297,7 +297,7 @@ domain-suffix,oculuscdn.com,proxy
 domain-suffix,rocksdb.org,proxy
 domain-suffix,whatsapp.com,proxy
 domain-suffix,whatsapp.net,proxy
-domin-keyword,facebook,proxy
+domain-keyword,facebook,proxy
 IP-CIDR,3.123.36.126/32,proxy
 IP-CIDR,35.157.215.84/32,proxy
 IP-CIDR,35.157.217.255/32,proxy
@@ -316,7 +316,7 @@ domain-suffix,twimg.co,proxy
 domain-suffix,twimg.com,proxy
 domain-suffix,twitpic.com,proxy
 domain-suffix,vine.co,proxy
-domin-keyword,twitter,proxy
+domain-keyword,twitter,proxy
 
 # > Telegram
 HOST-KEYWORD,telegram,proxy
@@ -1006,11 +1006,11 @@ domain-suffix,zb.com,proxy
 domain-suffix,zello.com,proxy
 domain-suffix,zeronet.io,proxy
 domain-suffix,zoom.us,proxy
-domin-keyword,github,proxy
-domin-keyword,jav,proxy
-domin-keyword,pinterest,proxy
-domin-keyword,porn,proxy
-domin-keyword,wikileaks,proxy
+domain-keyword,github,proxy
+domain-keyword,jav,proxy
+domain-keyword,pinterest,proxy
+domain-keyword,porn,proxy
+domain-keyword,wikileaks,proxy
 
 # (Region-Restricted Access Denied)
 domain-suffix,apartmentratings.com,proxy
@@ -1362,17 +1362,17 @@ DOMAIN,api.steampowered.com,proxy
 DOMAIN,store.steampowered.com,proxy
 
 # > Force some domains which are fucked by GFW while resolving DNS,or do not respect the system proxy
-domin-keyword,Appledaily,proxy
-domin-keyword,beetalk,proxy
-domin-keyword,blogspot,proxy
-domin-keyword,dropbox,proxy
-domin-keyword,facebook,proxy
-domin-keyword,github,proxy
-domin-keyword,instagram,proxy
-domin-keyword,porn,proxy
-domin-keyword,twitter,proxy
-domin-keyword,whatsapp,proxy
-domin-keyword,google,proxy
+domain-keyword,Appledaily,proxy
+domain-keyword,beetalk,proxy
+domain-keyword,blogspot,proxy
+domain-keyword,dropbox,proxy
+domain-keyword,facebook,proxy
+domain-keyword,github,proxy
+domain-keyword,instagram,proxy
+domain-keyword,porn,proxy
+domain-keyword,twitter,proxy
+domain-keyword,whatsapp,proxy
+domain-keyword,google,proxy
 domain-suffix,1e100.net,proxy
 domain-suffix,2mdn.net,proxy
 domain-suffix,abc.xyz,proxy
