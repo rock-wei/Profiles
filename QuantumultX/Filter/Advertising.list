@@ -304,7 +304,6 @@ DOMAIN-SUFFIX,jp.as.pptv.com,REJECT
 DOMAIN-SUFFIX,pp2.pptv.com,REJECT
 DOMAIN-SUFFIX,stat.pptv.com,REJECT
 DOMAIN-SUFFIX,static.g.pptv.com,REJECT
-URL-REGEX,https?://img\w.g.pptv.com,REJECT
 
 # > Site
 DOMAIN-SUFFIX,deliver.ifeng.com,REJECT
