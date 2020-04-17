@@ -84,36 +84,28 @@ DOMAIN-SUFFIX,livechina.com,DIRECT
 # China Bank
 # > Agricultural Bank of China
 DOMAIN-SUFFIX,abchina.com,DIRECT
-
 # > Bank of China
 DOMAIN-SUFFIX,boc.cn,DIRECT
-
 # > China Citic Bank
 DOMAIN-SUFFIX,citicbank.com,DIRECT
 DOMAIN-SUFFIX,ecitic.com,DIRECT
-
 # > China Construction Bank
 DOMAIN-SUFFIX,ccb.com,DIRECT
 DOMAIN-SUFFIX,ccb.com.cn,DIRECT
-
 # > China Everbright Bank
 DOMAIN-SUFFIX,cebbank.com,DIRECT
-
 # > China Merchants Bank
 USER-AGENT,cmb*,DIRECT
 DOMAIN-SUFFIX,cmbchina.com,DIRECT
 DOMAIN-SUFFIX,cmbimg,DIRECT
 DOMAIN-SUFFIX,cmbt.cn,DIRECT
 DOMAIN-SUFFIX,mbcloud.com,DIRECT
-
 # > Industrial and Commercial Bank of China
 USER-AGENT,%E4%B8%AD%E5%9B%BD%E5%B7%A5%E5%95%86%E9%93%B6%E8%A1%8C*,DIRECT
 DOMAIN-SUFFIX,icbc.com.cn,DIRECT
-
 # > Ping An Bank
 DOMAIN-SUFFIX,pingan.com,DIRECT
 DOMAIN-SUFFIX,pingan.com.cn,DIRECT
-
 # > DiDi
 DOMAIN-SUFFIX,didialift.com,DIRECT
 DOMAIN-SUFFIX,didiglobal.com,DIRECT
@@ -224,7 +216,6 @@ DOMAIN-SUFFIX,sina.com,DIRECT
 DOMAIN-SUFFIX,weibo.com,DIRECT
 DOMAIN-SUFFIX,weibocdn.com,DIRECT
 # > Sohu
-
 DOMAIN-SUFFIX,sohu.com,DIRECT
 DOMAIN-SUFFIX,sohucs.com,DIRECT
 DOMAIN-SUFFIX,sohu-inc.com,DIRECT
@@ -256,7 +247,6 @@ IP-CIDR,185.188.32.0/24,DIRECT,no-resolve
 IP-CIDR,185.188.33.0/24,DIRECT,no-resolve
 IP-CIDR,185.188.34.0/24,DIRECT,no-resolve
 IP-CIDR,185.188.35.0/24,DIRECT,no-resolve
-
 # > Tencent
 USER-AGENT,MicroMessenger%20Client,DIRECT
 USER-AGENT,WeChat*,DIRECT
@@ -703,9 +693,7 @@ DOMAIN-SUFFIX,zmz002.com,DIRECT
 DOMAIN,download.jetbrains.com,DIRECT
 DOMAIN,images-cn.ssl-images-amazon.com,DIRECT
 DOMAIN,cdn.angruo.com,DIRECT
-
 IP-CIDR,1.255.62.0/24,DIRECT,no-resolve
-
 # > Private Tracker
 DOMAIN-SUFFIX,awesome-hd.me,DIRECT
 DOMAIN-SUFFIX,broadcasthe.net,DIRECT
@@ -730,15 +718,12 @@ DOMAIN-SUFFIX,redacted.ch,DIRECT
 DOMAIN-SUFFIX,springsunday.net,DIRECT
 DOMAIN-SUFFIX,tjupt.org,DIRECT
 DOMAIN-SUFFIX,totheglory.im,DIRECT
-
 # > Accelerate direct sites
 DOMAIN-KEYWORD,announce,DIRECT
 DOMAIN-KEYWORD,torrent,DIRECT
 DOMAIN-KEYWORD,tracker,DIRECT
 DOMAIN-SUFFIX,smtp,DIRECT
-
 IP-CIDR,1.1.1.1/24,DIRECT,no-resolve
-
 DOMAIN-SUFFIX,smtp,DIRECT,no-resolve
 DOMAIN-SUFFIX,local,DIRECT,no-resolve
 IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
