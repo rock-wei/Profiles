@@ -519,7 +519,7 @@ domain-suffix,dailymotion.com,proxy
 domain-suffix,dailyview.tw,proxy
 domain-suffix,daolan.net,proxy
 domain-suffix,data-vocabulary.org,proxy
-domain-suffix,dayone.me,Prox
+domain-suffix,dayone.me,proxy
 domain-suffix,daum.net,proxy
 domain-suffix,daumcdn.net,proxy
 domain-suffix,db.tt,proxy
@@ -1238,7 +1238,7 @@ domain-suffix,twtkr.com,proxy
 domain-suffix,txmblr.com,proxy
 domain-suffix,typcn.com,proxy
 domain-suffix,typekit.net,proxy
-domain-suffix,typography.com,Pro
+domain-suffix,typography.com,proxy
 domain-suffix,ubertags.com,proxy
 domain-suffix,ublock.org,proxy
 domain-suffix,ubnt.com,proxy
