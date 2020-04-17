@@ -29,7 +29,6 @@ IP-CIDR,54.226.0.0/15,Proxy,no-resolve
 IP-CIDR,54.230.156.0/22,Proxy,no-resolve
 IP-CIDR,54.93.0.0/16,Proxy,no-resolve
 
-
 # > BBC
 USER-AGENT,BBCiPlayer*,Proxy
 DOMAIN-KEYWORD,bbcfmt,Proxy
@@ -137,7 +136,6 @@ IP-CIDR,103.27.148.0/22,Proxy,no-resolve
 IP-CIDR,110.76.140.0/22,Proxy,no-resolve
 IP-CIDR,113.61.104.0/22,Proxy,no-resolve
 IP-CIDR,27.0.236.0/22,Proxy,no-resolve
-
 
 # > MytvSUPER
 USER-AGENT,mytv*,Proxy
@@ -637,7 +635,7 @@ DOMAIN-SUFFIX,goodreads.com,Proxy
 DOMAIN-SUFFIX,goodreaders.com,Proxy
 DOMAIN-SUFFIX,gov,PROXY
 DOMAIN-SUFFIX,gov.tw,PROXY
-OMAIN-SUFFIX,gravatar.com,Proxy
+DOMAIN-SUFFIX,gravatar.com,Proxy
 DOMAIN-SUFFIX,greatfire.org,PROXY
 DOMAIN-SUFFIX,gstatic.cn,Proxy
 DOMAIN-SUFFIX,gstatic.com,Proxy
