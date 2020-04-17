@@ -80,7 +80,7 @@ IP-CIDR,74.119.76.0/22,proxy,no-resolve
 # > Now E
 user-agent,PCCW*,proxy
 domain-keyword,nowe,proxy
-DOMAIN,bcbolthboa-a.akamaihd.net,proxy
+domain,bcbolthboa-a.akamaihd.net,proxy
 domain-suffix,nowe.com,proxy
 domain-suffix,youboranqs01.com,proxy
 
@@ -339,7 +339,7 @@ IP-CIDR,109.239.140.0/24,proxy
 
 # > TikTok
 user-agent,TikTok*,proxy
-HOST-KEYWORD,-tiktokcdn-com,proxy
+domain-keyword,-tiktokcdn-com,proxy
 domain-suffix,muscdn.com,proxy
 domain-suffix,musical.ly,proxy
 domain-suffix,tiktokv.com,proxy
@@ -1065,17 +1065,17 @@ user-agent,Roam*,proxy
 # (The Most Popular Sites)
 # > Apple
 # >> TestFlight
-DOMAIN,testflight.apple.com,proxy
+domain,testflight.apple.com,proxy
 # >> Apple URL Shortener
 domain-suffix,appsto.re,proxy
 # >> iBooks Store download
-DOMAIN,books.itunes.apple.com,proxy
+domain,books.itunes.apple.com,proxy
 # >> iTunes Store Moveis Trailers
-DOMAIN,hls.itunes.apple.com,proxy
+domain,hls.itunes.apple.com,proxy
 # >> Spotlight
-DOMAIN,api-glb-sea.smoot.apple.com,proxy
+domain,api-glb-sea.smoot.apple.com,proxy
 # >> Dictionary
-DOMAIN,lookup-api.apple.com,proxy
+domain,lookup-api.apple.com,proxy
 # > Google
 domain-suffix,abc.xyz,proxy
 domain-suffix,android.com,proxy
@@ -1358,8 +1358,8 @@ domain-suffix,zalmos.com,proxy
 domain-suffix,zaobao.com.sg,proxy
 domain-suffix,zeutch.com,proxy
 domain-suffix,zynamics.com,proxy
-DOMAIN,api.steampowered.com,proxy
-DOMAIN,store.steampowered.com,proxy
+domain,api.steampowered.com,proxy
+domain,store.steampowered.com,proxy
 
 # > Force some domains which are fucked by GFW while resolving DNS,or do not respect the system proxy
 domain-keyword,Appledaily,proxy
