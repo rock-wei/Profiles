@@ -31,9 +31,9 @@ IP-CIDR,54.93.0.0/16,proxy,no-resolve
 
 # > BBC
 user-agent,BBCiPlayer*,proxy
-domin-keyword,bbcfmt,proxy
-domin-keyword,co.uk,proxy
-domin-keyword,uk-live,proxy
+domain-keyword,bbcfmt,proxy
+domain-keyword,co.uk,proxy
+domain-keyword,uk-live,proxy
 domain-suffix,bbc.co,proxy
 domain-suffix,bbc.co.uk,proxy
 domain-suffix,bbc.com,proxy
@@ -46,7 +46,7 @@ domain-suffix,chocotv.com.tw,proxy
 
 # > Disney Plus
 user-agent,Disney*,proxy
-DOMAIN,cdn.registerdisney.go.com,proxy
+domain,cdn.registerdisney.go.com,proxy
 domain-suffix,disneyplus.com,proxy
 domain-suffix,disney-plus.net,proxy
 domain-suffix,dssott.com,proxy
@@ -79,7 +79,7 @@ IP-CIDR,74.119.76.0/22,proxy,no-resolve
 
 # > Now E
 user-agent,PCCW*,proxy
-domin-keyword,nowe,proxy
+domain-keyword,nowe,proxy
 DOMAIN,bcbolthboa-a.akamaihd.net,proxy
 domain-suffix,nowe.com,proxy
 domain-suffix,youboranqs01.com,proxy
