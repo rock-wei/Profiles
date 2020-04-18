@@ -6,10 +6,42 @@ DOMAIN-SUFFIX,ads.internal.unity3d.com,REJECT
 DOMAIN-SUFFIX,ads.prd.ie.internal.unity3d.com,REJECT
 DOMAIN-SUFFIX,unityads.unity3d.com,REJECT
 
+# > Appsflyer
+DOMAIN-suffix, appsflyer.com, REJECT
+
 # > Alibaba
 DOMAIN,optimus-ads.amap.com,REJECT
 DOMAIN,optimus-ads.amap.com.w.alikunlun.com,REJECT
 DOMAIN,tunion-api.m.taobao.com,REJECT
+
+DOMAIN, acs4baichuan.m.taobao.com, REJECT
+DOMAIN, adash.m.taobao.com, REJECT
+DOMAIN, adashbc.m.taobao.com, REJECT
+DOMAIN, adashbc.ut.taobao.com, REJECT
+DOMAIN, adashx.m.taobao.com, REJECT
+DOMAIN, adashxgc.ut.taobao.com, REJECT
+DOMAIN, agoodm.m.taobao.com, REJECT
+DOMAIN, ai.m.taobao.com, REJECT
+DOMAIN, ai.taobao.com, REJECT
+DOMAIN, api.waptest.taobao.com, REJECT
+DOMAIN, apoll.m.taobao.com, REJECT
+DOMAIN, c-adash.m.taobao.com, REJECT
+DOMAIN, h-adashx.ut.taobao.com, REJECT
+DOMAIN, m-adash.m.taobao.com, REJECT
+DOMAIN, nbsdk-baichuan.taobao.com, REJECT
+DOMAIN, pics.taobaocdn.com, REJECT
+DOMAIN, pindao.huoban.taobao.com, REJECT
+DOMAIN, re.m.taobao.com, REJECT
+DOMAIN, re.taobao.com, REJECT
+DOMAIN, rj.m.taobao.com, REJECT
+DOMAIN, sdkinit.taobao.com, REJECT
+DOMAIN, show.re.taobao.com, REJECT
+DOMAIN, simaba.taobao.com, REJECT
+DOMAIN, strip.taobaocdn.com, REJECT
+DOMAIN, temai.taobao.com, REJECT
+DOMAIN, tunion-api.m.taobao.com, REJECT
+DOMAIN, unitacs.m.taobao.com, REJECT
+DOMAIN, w.m.taobao.com, REJECT
 
 # > AutoHome
 DOMAIN,adproxy.autohome.com.cn,REJECT
@@ -24,6 +56,10 @@ DOMAIN,duclick.baidu.com,REJECT
 DOMAIN,mobads.baidu.com,REJECT
 DOMAIN,mobads-logs.baidu.com,REJECT
 DOMAIN,nsclick.baidu.com,REJECT
+
+DOMAIN-suffix, pos.baidu.com, REJECT
+DOMAIN, hm.baidu.com, REJECT
+DOMAIN, hpd.baidu.com, REJECT
 
 # > ByteDance
 DOMAIN,ad.toutiao.com,REJECT
@@ -51,6 +87,9 @@ DOMAIN,adshows.21cn.com,REJECT
 # > Chelaile
 DOMAIN,atrace.chelaile.net.cn,REJECT
 DOMAIN,logs.chelaile.net.cn,REJECT
+
+# > crashlytics
+DOMAIN-suffix, crashlytics.com, REJECT
 
 # > Google
 DOMAIN-SUFFIX,googleadservices.com,REJECT
@@ -244,6 +283,9 @@ DOMAIN,splashqqlive.gtimg.com,REJECT
 DOMAIN,wa.gtimg.com,REJECT
 DOMAIN,wxsnsdy.wxs.qq.com,REJECT
 DOMAIN,wxsnsdythumb.wxs.qq.com,REJECT
+
+DOMAIN, ios.bugly.qq.com, REJECT
+DOMAIN, pingma.qq.com, REJECT
 
 # > Pcauto太平洋
 DOMAIN,ad-analysis.pconline.com.cn,REJECT
