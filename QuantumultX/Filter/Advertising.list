@@ -2,6 +2,7 @@
 # Advertising 广告
 
 # > Apple
+DOMAIN,ocsp.apple.com,REJECT
 DOMAIN-SUFFIX,ads.internal.unity3d.com,REJECT
 DOMAIN-SUFFIX,ads.prd.ie.internal.unity3d.com,REJECT
 DOMAIN-SUFFIX,unityads.unity3d.com,REJECT
@@ -362,6 +363,9 @@ DOMAIN,imgadpai.thepaper.cn,REJECT
 # > Thunder
 DOMAIN,adsp.xunlei.com,REJECT
 DOMAIN,etl.xlmc.sandai.net,REJECT
+DOMAIN,hub5idx.v6.shub.sandai.net,REJECT
+DOMAIN,hub5emu.v6.shub.sandai.net,REJECT
+DOMAIN,hub5btmain.v6.shub.sandai.net,REJECT
 
 # > Tonghuashun同花顺
 DOMAIN,adm.10jqka.com.cn,REJECT
