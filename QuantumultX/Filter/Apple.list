@@ -27,6 +27,8 @@ USER-AGENT,%E8%AE%BE%E7%BD%AE*,Apple
 USER-AGENT,AppStore*,Apple
 USER-AGENT,com.apple.geod*,Apple
 USER-AGENT,com.apple.Maps,Apple
+USER-AGENT,FindMyFriends*,Apple
+USER-AGENT,FindMyiPhone*,Apple
 USER-AGENT,FindMy*,Apple
 USER-AGENT,FMDClient*,Apple
 USER-AGENT,FMFD*,Apple
@@ -47,6 +49,8 @@ DOMAIN-SUFFIX,icloud.com,Apple
 DOMAIN-SUFFIX,icloud.com.cn,Apple
 DOMAIN-SUFFIX,icloud-content.com,Apple
 DOMAIN-SUFFIX,me.com,Apple
+DOMAIN-SUFFIX,itunes.com,Apple
 DOMAIN,www-cdn.icloud.com.akadns.net,Apple
+
 
 
