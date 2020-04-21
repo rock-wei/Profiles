@@ -262,13 +262,13 @@ IP-CIDR,173.194.0.0/16,proxy,no-resolve
 IP-CIDR,74.125.0.0/16,proxy,no-resolve
 
 # > Microsoft proxy
-user-agent,OneDrive*,proxy
-HOST-KEYWORD,onedrive,proxy
-domain-suffix,onedrive.com,proxy
-domain-suffix,onedrive.live.com,proxy
-domain-suffix,storage.live.com,proxy
-domain-suffix,skype.com,proxy
-domain-suffix,xboxlive.com,proxy
+;user-agent,OneDrive*,proxy
+;HOST-KEYWORD,onedrive,proxy
+;domain-suffix,onedrive.com,proxy
+;domain-suffix,onedrive.live.com,proxy
+;domain-suffix,storage.live.com,proxy
+;domain-suffix,skype.com,proxy
+;domain-suffix,xboxlive.com,proxy
 
 # > PayPal
 user-agent,PayPal*,proxy
