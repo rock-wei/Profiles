@@ -269,6 +269,15 @@ IP-CIDR,74.125.0.0/16,proxy,no-resolve
 ;domain-suffix,storage.live.com,proxy
 ;domain-suffix,skype.com,proxy
 ;domain-suffix,xboxlive.com,proxy
+# > Microsoft OneDrive
+DOMAIN-SUFFIX,1drv.com,PROXY
+DOMAIN-SUFFIX,1drv.ms,PROXY
+DOMAIN-SUFFIX,blob.core.windows.net,PROXY
+DOMAIN-SUFFIX,livefilestore.com,PROXY
+DOMAIN-SUFFIX,onedrive.com,PROXY
+DOMAIN-SUFFIX,storage.live.com,PROXY
+DOMAIN-SUFFIX,storage.msn.com,PROXY
+DOMAIN,oneclient.sfx.ms,PROXY
 
 # > PayPal
 user-agent,PayPal*,proxy
