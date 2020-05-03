@@ -365,13 +365,16 @@ IP-CIDR,147.92.128.0/17,proxy
 IP-CIDR,203.104.144.0/21,proxy
 
 # > Other
+DOMAIN-SUFFIX,0rz.tw,PROXY
 domain-suffix,2o7.net,proxy
+DOMAIN-SUFFIX,4bluestones.biz,PROXY
 domain-suffix,4everproxy.com,proxy
 domain-suffix,4shared.com,proxy
 domain-suffix,4sqi.net,proxy
 domain-suffix,4shared.com,proxy
 domain-suffix,520cc.cc,proxy
 domain-suffix,881903.com,proxy
+DOMAIN-SUFFIX,9bis.net,PROXY
 domain-suffix,9cache.com,proxy
 domain-suffix,9gag.com,proxy
 domain-suffix,9to5mac.com,proxy
@@ -460,6 +463,9 @@ domain-suffix,bitmex.com,proxy
 domain-suffix,bitshare.com,proxy
 domain-suffix,bit-z.com,proxy
 domain-suffix,bkrtx.com,proxy
+DOMAIN-SUFFIX,blog.jp,PROXY
+DOMAIN-SUFFIX,blogimg.jp,PROXY
+DOMAIN-SUFFIX,blogtd.org,PROXY
 domain-suffix,blog.com,proxy
 domain-suffix,bloglovin.com,proxy
 domain-suffix,blogcdn.com,proxy
@@ -479,9 +485,11 @@ domain-suffix,botanwang.com,proxy
 domain-suffix,box.com,proxy
 domain-suffix,box.net,proxy
 domain-suffix,boxun.com,proxy
+DOMAIN-SUFFIX,broadcast.co.nz,PROXY
 domain-suffix,businessinsider.com,proxy
 domain-suffix,bwh1.net,proxy
 domain-suffix,cachefly.net,proxy
+DOMAIN-SUFFIX,camfrog.com,PROXY
 domain-suffix,castbox.fm,proxy
 domain-suffix,cbc.ca,proxy
 domain-suffix,cdn.segment.com,proxy
@@ -490,6 +498,7 @@ domain-suffix,cdw.com,proxy
 domain-suffix,celestrak.com,proxy
 domain-suffix,census.gov,proxy
 domain-suffix,certificate-transparency.org,proxy
+DOMAIN-SUFFIX,cfos.de,PROXY
 domain-suffix,change.org,proxy
 domain-suffix,channelnewsasia.com,proxy
 domain-suffix,chinadigitaltimes.net,proxy
@@ -499,6 +508,7 @@ domain-suffix,chromecast.com,proxy
 domain-suffix,chromercise.com,proxy
 domain-suffix,chromestatus.com,proxy
 domain-suffix,chromium.org,proxy
+DOMAIN-SUFFIX,citypopulation.de,PROXY
 domain-suffix,ck101.com,proxy
 domain-suffix,clarionproject.org,proxy
 domain-suffix,cl.ly,proxy
@@ -519,7 +529,10 @@ domain-suffix,conoha.jp,proxy
 domain-suffix,culturedcode.com,proxy
 domain-suffix,cygames.jp,proxy
 domain-suffix,crucial.com,proxy
+DOMAIN-SUFFIX,ctitv.com.tw,PROXY
 domain-suffix,cts.com.tw,proxy
+DOMAIN-SUFFIX,cuhk.edu.hk,PROXY
+DOMAIN-SUFFIX,cusu.hk,PROXY
 domain-suffix,cw.com.tw,proxy
 domain-suffix,cyberctm.com,proxy
 domain-suffix,d.pr,proxy
@@ -544,6 +557,8 @@ domain-suffix,deepdiscount.com,proxy
 domain-suffix,depositphotos.com,proxy
 domain-suffix,deviantart.com,proxy
 domain-suffix,disconnect.me,proxy
+DOMAIN-SUFFIX,discord.gg,PROXY
+DOMAIN-SUFFIX,discuss.com.hk,PROXY
 domain-suffix,discordapp.com,proxy
 domain-suffix,discordapp.net,proxy
 domain-suffix,disqus.com,proxy
@@ -559,6 +574,8 @@ domain-suffix,dribbble.com,proxy
 domain-suffix,droplr.com,proxy
 domain-suffix,dropbox.com,proxy
 domain-suffix,dropboxusercontent.com,proxy
+DOMAIN-SUFFIX,dropboxapi.com,PROXY
+DOMAIN-SUFFIX,duolingo.cn,PROXY
 domain-suffix,duckduckgo.com,proxy
 domain-suffix,dueapp.com,proxy
 domain-suffix,dw.com,proxy
@@ -567,6 +584,7 @@ domain-suffix,easybib.com,proxy
 domain-suffix,earthcam.com,proxy
 domain-suffix,ebookservice.tw,proxy
 domain-suffix,economist.com,proxy
+DOMAIN-SUFFIX,edditstatic.com,PROXY
 domain-suffix,edgecastcdn.net,proxy
 domain-suffix,edgekey.net,proxy
 domain-suffix,edgesuite.net,proxy
@@ -595,11 +613,14 @@ domain-suffix,fiftythree.com,proxy
 domain-suffix,firebaseio.com,proxy
 domain-suffix,flexibits.com,proxy
 domain-suffix,flickr.com,proxy
+DOMAIN-SUFFIX,flickriver.com,PROXY
 domain-suffix,flipboard.com,proxy
 domain-suffix,flipkart.com,proxy
 domain-suffix,flitto.com,proxy
 domain-suffix,flurry.com,proxy
+DOMAIN-SUFFIX,focustaiwan.tw,PROXY
 domain-suffix,foreignpolicy.com,proxy
+DOMAIN-SUFFIX,free.fr,PROXY
 domain-suffix,freebrowser.org,proxy
 domain-suffix,freeopenproxy.com,proxy
 domain-suffix,freewechat.com,proxy
@@ -627,6 +648,7 @@ domain-suffix,gfw.press,proxy
 domain-suffix,gfx.ms,proxy
 domain-suffix,ggpht.com,proxy
 domain-suffix,ghostnoteapp.com,proxy
+DOMAIN-SUFFIX,gigacircle.com,PROXY
 domain-suffix,git.io,proxy
 domain-suffix,gitbook.com,proxy
 domain-suffix,globalsign.com,proxy
@@ -657,6 +679,7 @@ domain-suffix,heroku.com,proxy
 domain-suffix,helpshift.com,proxy
 domain-suffix,hinet.net,proxy
 domain-suffix,hightail.com,proxy
+DOMAIN-SUFFIX,hk-pub.com,PROXY
 domain-suffix,hk01.com,proxy
 domain-suffix,hkbf.org,proxy
 domain-suffix,hkbookcity.com,proxy
@@ -665,9 +688,11 @@ domain-suffix,hket.com,proxy
 domain-suffix,hkgolden.com,proxy
 domain-suffix,hockeyapp.net,proxy
 domain-suffix,homedepot.com,proxy
+DOMAIN-SUFFIX,hosting.co.uk,PROXY
 domain-suffix,hootsuite.com,proxy
 domain-suffix,howtoforge.com,proxy
 domain-suffix,hudson.org,proxy
+DOMAIN-SUFFIX,hwcdn.net,PROXY
 domain-suffix,hyread.com.tw,proxy
 domain-suffix,ibtimes.com,proxy
 domain-suffix,i-cable.com,proxy
@@ -675,6 +700,7 @@ domain-suffix,iam.soy,proxy
 domain-suffix,icij.org,proxy
 domain-suffix,icoco.com,proxy
 domain-suffix,icons8.com,proxy
+DOMAIN-SUFFIX,ifixit.com,PROXY
 domain-suffix,ift.tt,proxy
 domain-suffix,ifttt.com,proxy
 domain-suffix,imageshack.us,proxy
@@ -691,8 +717,11 @@ domain-suffix,instructables.com,proxy
 domain-suffix,io.io,proxy
 domain-suffix,ip.sb,proxy
 domain-suffix,ipaddress.com,proxy
+DOMAIN-SUFFIX,iphone4hongkong.com,PROXY
+DOMAIN-SUFFIX,iphonetaiwan.org,PROXY
 domain-suffix,ipn.li,proxy
 domain-suffix,ipfs.io,proxy
+DOMAIN-SUFFIX,iptvbin.com,PROXY
 domain-suffix,is.gd,proxy
 domain-suffix,ishowsapp.com,proxy
 domain-suffix,issuu.com,proxy
@@ -735,6 +764,7 @@ domain-suffix,licdn.com,proxy
 domain-suffix,lightboxcdn.com,proxy
 domain-suffix,like.com,proxy
 domain-suffix,linkedin.com,proxy
+DOMAIN-SUFFIX,linksalpha.com,PROXY
 domain-suffix,linode.com,proxy
 domain-suffix,lithium.com,proxy
 domain-suffix,littlehj.com,proxy
@@ -749,6 +779,7 @@ domain-suffix,macid.co,proxy
 domain-suffix,macromedia.com,proxy
 domain-suffix,macrumors.com,proxy
 domain-suffix,manhuaren.com,proxy
+DOMAIN-SUFFIX,manyvids.com,PROXY
 domain-suffix,marketwatch.com,proxy
 domain-suffix,mashable.com,proxy
 domain-suffix,mathjax.org,proxy
@@ -772,6 +803,7 @@ domain-suffix,modmyi.com,proxy
 domain-suffix,moves-export.com,proxy
 domain-suffix,mp3buscador.com,proxy
 domain-suffix,msedge.net,proxy
+DOMAIN-SUFFIX,myactimes.com,PROXY
 domain-suffix,mycnnews.com,proxy
 domain-suffix,myfontastic.com,proxy
 domain-suffix,name.com,proxy
@@ -779,6 +811,7 @@ domain-suffix,nasa.gov,proxy
 domain-suffix,ndr.de,proxy
 domain-suffix,netdna-cdn.com,proxy
 domain-suffix,newipnow.com,proxy
+DOMAIN-SUFFIX,newsblur.com,PROXY
 domain-suffix,nextmedia.com,proxy
 domain-suffix,nih.gov,proxy
 domain-suffix,nintendo.com,proxy
@@ -797,6 +830,8 @@ domain-suffix,nofile.io,proxy
 domain-suffix,notion.so,proxy
 domain-suffix,novafile.com,proxy
 domain-suffix,now.com,proxy
+DOMAIN-SUFFIX,now.im,PROXY
+DOMAIN-SUFFIX,nowe.com,PROXY
 domain-suffix,nsstatic.net,proxy
 domain-suffix,nssurge.com,proxy
 domain-suffix,nrk.no,proxy
@@ -880,6 +915,7 @@ domain-suffix,rakuten.co.jp,proxy
 domain-suffix,readingtimes.com.tw,proxy
 domain-suffix,readmoo.com,proxy
 domain-suffix,recaptcha.net,proxy
+DOMAIN-SUFFIX,redditlist.com,PROXY
 domain-suffix,rileyguide.com,proxy
 domain-suffix,rime.im,proxy
 domain-suffix,rsf.org,proxy
@@ -892,6 +928,7 @@ domain-suffix,reutersmedia.net,proxy
 domain-suffix,rfi.fr,proxy
 domain-suffix,rixcloud.com,proxy
 domain-suffix,roadshow.hk,proxy
+DOMAIN-SUFFIX,s3.amazonaws.com,PROXY
 domain-suffix,sciencedaily.com,proxy
 domain-suffix,sciencemag.org,proxy
 domain-suffix,scribd.com,proxy
@@ -909,6 +946,7 @@ domain-suffix,shadowsocks.org,proxy
 domain-suffix,shopee.tw,proxy
 domain-suffix,shutterstock.com,proxy
 domain-suffix,sidelinesnews.com,proxy
+DOMAIN-SUFFIX,signal.org,PROXY
 domain-suffix,simply,proxy
 domain-suffix,simplenote.com,proxy
 domain-suffix,sketchappsources.com,proxy
@@ -918,6 +956,7 @@ domain-suffix,slack-edge.com,proxy
 domain-suffix,slack-msgs.com,proxy
 domain-suffix,slideshare.net,proxy
 domain-suffix,smartdnsproxy.com,proxy
+DOMAIN-SUFFIX,smartmailcloud.com,PROXY
 domain-suffix,smh.com.au,proxy
 domain-suffix,snapchat.com,proxy
 domain-suffix,sndcdn.com,proxy
@@ -926,6 +965,7 @@ domain-suffix,soundcloud.com,proxy
 domain-suffix,sourceforge.net,proxy
 domain-suffix,sowers.org.hk,proxy
 domain-suffix,softfamous.com,proxy
+DOMAIN-SUFFIX,sparknotes.com,PROXY
 domain-suffix,speedsmart.net,proxy
 domain-suffix,spike.com,proxy
 domain-suffix,squarespace.com,proxy
@@ -942,9 +982,11 @@ domain-suffix,startpage.com,proxy
 domain-suffix,steamcommunity.com,proxy
 domain-suffix,steemit.com,proxy
 domain-suffix,steemitwallet.com,proxy
+DOMAIN-SUFFIX,streetvoice.com,PROXY
 domain-suffix,stumbleupon.com,proxy
 domain-suffix,sugarsync.com,proxy
 domain-suffix,supermariorun.com,proxy
+DOMAIN-SUFFIX,supertop.co,PROXY
 domain-suffix,surfeasy.com.au,proxy
 domain-suffix,surge.run,proxy
 domain-suffix,surrenderat20.net,proxy
@@ -967,7 +1009,11 @@ domain-suffix,tumblr.com,proxy
 domain-suffix,turbobit.net,proxy
 domain-suffix,tutanota.com,proxy
 domain-suffix,tvboxnow.com,proxy
+DOMAIN-SUFFIX,tv.com,PROXY
+DOMAIN-SUFFIX,typepad.com,PROXY
 domain-suffix,udn.com,proxy
+DOMAIN-SUFFIX,udnbkk.com,PROXY
+DOMAIN-SUFFIX,urbanairship.com,PROXY
 domain-suffix,unseen.is,proxy
 domain-suffix,upmedia.mg,proxy
 domain-suffix,uptodown.com,proxy
@@ -986,6 +1032,7 @@ domain-suffix,w3schools.com,proxy
 domain-suffix,washingtonpost.com,proxy
 domain-suffix,wattpad.com,proxy
 domain-suffix,whoer.net,proxy
+DOMAIN-SUFFIX,wikia.com,PROXY
 domain-suffix,wikimapia.org,proxy
 domain-suffix,wikimedia.org,proxy
 domain-suffix,wikipedia.org,proxy
@@ -993,12 +1040,16 @@ domain-suffix,wikiquote.org,proxy
 domain-suffix,wikiwand.com,proxy
 domain-suffix,winudf.com,proxy
 domain-suffix,wire.com,proxy
+DOMAIN-SUFFIX,whispersystems.org,PROXY
+DOMAIN-SUFFIX,wn.com,PROXY
+DOMAIN-SUFFIX,wolframalpha.com,PROXY
 domain-suffix,wordpress.com,proxy
 domain-suffix,workflow.is,proxy
 domain-suffix,worldcat.org,proxy
 domain-suffix,wsj.com,proxy
 domain-suffix,wsj.net,proxy
 domain-suffix,xhamster.com,proxy
+DOMAIN-SUFFIX,x-art.com,PROXY
 domain-suffix,xn--90wwvt03e.com,proxy
 domain-suffix,xn--i2ru8q2qg.com,proxy
 domain-suffix,xnxx.com,proxy
@@ -1008,6 +1059,7 @@ domain-suffix,yandex.ru,proxy
 domain-suffix,ycombinator.com,proxy
 domain-suffix,yesasia.com,proxy
 domain-suffix,yes-news.com,proxy
+DOMAIN-SUFFIX,yimg.com,PROXY
 domain-suffix,yomiuri.co.jp,proxy
 domain-suffix,you-get.org,proxy
 domain-suffix,zaobao.com,proxy
@@ -1427,3 +1479,5 @@ domain-suffix,unfiltered.news,proxy
 domain-suffix,waveprotocol.org,proxy
 domain-suffix,webmproject.org,proxy
 domain-suffix,webrtc.org,proxy
+DOMAIN,api.steampowered.com,PROXY
+DOMAIN,store.steampowered.com,PROXY
