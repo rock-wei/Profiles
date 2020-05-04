@@ -38,8 +38,8 @@ DOMAIN,api.smoot.apple.cn, DIRECT
 DOMAIN,music.apple.com, DIRECT
 DOMAIN,mvod.itunes.apple.com, DIRECT
 # > App Store
-;USER-AGENT,AppStore*,DIRECT
-;USER-AGENT,com.apple.appstored*, DIRECT
+USER-AGENT,AppStore*,DIRECT
+USER-AGENT,com.apple.appstored*, DIRECT
 DOMAIN-SUFFIX,mzstatic.com, DIRECT
 DOMAIN,iosapps.itunes.apple.com, DIRECT
 DOMAIN,osxapps.itunes.apple.com, DIRECT
@@ -69,7 +69,7 @@ USER-AGENT,fmflocatord*,DIRECT
 USER-AGENT,geod*,DIRECT
 USER-AGENT,locationd*,DIRECT
 USER-AGENT,Maps*,DIRECT
-;USER-AGENT,TestFlight*,DIRECT
+USER-AGENT,TestFlight*,DIRECT
 DOMAIN-SUFFIX,aaplimg.com,DIRECT
 DOMAIN-SUFFIX,apple.co,DIRECT
 DOMAIN-SUFFIX,apple.com,DIRECT
