@@ -5,8 +5,8 @@ DOMAIN,api.smoot.apple.cn, Apple
 DOMAIN,music.apple.com, Apple
 DOMAIN,mvod.itunes.apple.com, Apple
 # > App Store
-USER-AGENT,AppStore*,Apple
-USER-AGENT,com.apple.appstored*, Apple
+;USER-AGENT,AppStore*,Apple
+;USER-AGENT,com.apple.appstored*, Apple
 DOMAIN-SUFFIX,mzstatic.com, Apple
 DOMAIN,iosapps.itunes.apple.com, Apple
 DOMAIN,osxapps.itunes.apple.com, Apple
