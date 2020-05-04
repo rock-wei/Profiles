@@ -36,7 +36,7 @@ USER-AGENT,fmflocatord*,Apple
 USER-AGENT,geod*,Apple
 USER-AGENT,locationd*,Apple
 USER-AGENT,Maps*,Apple
-USER-AGENT,TestFlight*,Apple
+;USER-AGENT,TestFlight*,Apple
 DOMAIN-SUFFIX,aaplimg.com,Apple
 DOMAIN-SUFFIX,apple.co,Apple
 DOMAIN-SUFFIX,apple.com,Apple
