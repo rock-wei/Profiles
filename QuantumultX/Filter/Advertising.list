@@ -3,6 +3,7 @@
 
 # > Apple
 DOMAIN,ocsp.apple.com,REJECT
+DOMAIN-SUFFIX,iadsdk.apple.com,REJECT
 DOMAIN-SUFFIX,ads.internal.unity3d.com,REJECT
 DOMAIN-SUFFIX,ads.prd.ie.internal.unity3d.com,REJECT
 DOMAIN-SUFFIX,unityads.unity3d.com,REJECT
@@ -51,6 +52,8 @@ DOMAIN,al.autohome.com.cn,REJECT
 DOMAIN,applogapi.autohome.com.cn,REJECT
 
 # > Baidu
+DOMAIN-SUFFIX,cpro.baidu.com,REJECT
+DOMAIN-SUFFIX,pos.baidu.com,REJECT
 DOMAIN,afd.baidu.com,REJECT
 DOMAIN,als.baidu.com,REJECT
 DOMAIN,duclick.baidu.com,REJECT
@@ -93,8 +96,14 @@ DOMAIN,logs.chelaile.net.cn,REJECT
 DOMAIN-suffix, crashlytics.com, REJECT
 
 # > Google
+DOMAIN-SUFFIX,doubleclick.net,REJECT
 DOMAIN-SUFFIX,googleadservices.com,REJECT
 DOMAIN-SUFFIX,googleadsserving.cn,REJECT
+DOMAIN-SUFFIX,googlesyndication.com,REJECT
+
+# > HunanTV
+DOMAIN-SUFFIX,da.mgtv.com,REJECT
+DOMAIN-SUFFIX,da.hunantv.com,REJECT
 
 # > Hupu
 DOMAIN,adx.hupu.com,REJECT
@@ -102,6 +111,7 @@ DOMAIN,adx-api.hupu.com,REJECT
 DOMAIN,goblin.hupu.com,REJECT
 
 # > Ifeng
+DOMAIN-SUFFIX,deliver.ifeng.com,REJECT
 DOMAIN,api.newad.ifeng.com,REJECT
 DOMAIN,ifengad.3g.ifeng.com,REJECT
 
@@ -119,6 +129,10 @@ DOMAIN-SUFFIX,cm.passport.iqiyi.com,REJECT
 DOMAIN-SUFFIX,count.game.pps.tv,REJECT
 DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
 DOMAIN-SUFFIX,emoticon.sns.iqiyi.com,REJECT
+IP-CIDR,101.227.97.240/32,REJECT,no-resolve
+IP-CIDR,101.227.200.11/32,REJECT,no-resolve
+IP-CIDR,101.227.200.28/32,REJECT,no-resolve
+IP-CIDR,124.192.153.42/32,REJECT,no-resolve
 
 # > Kingsoft
 DOMAIN,ad-stat.ksosoft.com,REJECT
@@ -142,6 +156,13 @@ DOMAIN,mobilelog.kugou.com,REJECT
 # > Kuwo
 DOMAIN,mobilead.kuwo.cn,REJECT
 DOMAIN,rich.kuwo.cn,REJECT
+
+# > Le
+DOMAIN-SUFFIX,webp2p.letv.com,REJECT
+DOMAIN,ark.letv.com,REJECT
+DOMAIN,emma-414870e223.huodonghezi.com,REJECT
+DOMAIN,g3.letv.com,REJECT
+DOMAIN,n.mark.letv.com,REJECT
 
 # > MI小米
 DOMAIN-SUFFIX,ad.intl.xiaomi.com,REJECT
@@ -518,6 +539,7 @@ DOMAIN,pvnapp.zol.com.cn,REJECT
 # REJECT
 
 # > Client
+
 DOMAIN,abema-adx.ameba.jp,REJECT
 DOMAIN,ad.12306.cn,REJECT
 DOMAIN,ad.360in.com,REJECT
