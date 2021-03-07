@@ -14,7 +14,7 @@ DOMAIN-SUFFIX,ads.prd.ie.internal.unity3d.com,REJECT
 DOMAIN-SUFFIX,unityads.unity3d.com,REJECT
 
 # > Appsflyer
-DOMAIN-suffix, appsflyer.com, REJECT
+DOMAIN-SUFFIX,appsflyer.com, REJECT
 
 # > Alibaba
 DOMAIN,optimus-ads.amap.com,REJECT
@@ -7738,7 +7738,7 @@ DOMAIN-SUFFIX,themis.yahoo.com,REJECT
 DOMAIN-SUFFIX,themoneytizer.com,REJECT
 DOMAIN-SUFFIX,theoremreach.com,REJECT
 DOMAIN-SUFFIX,thescenseproject.com,REJECT
-DOMAIN-SUFDOMAIN-SUFFIX,thetrafficstat.net,REJECTFIX,thetestpage.39.net,REJECT
+DOMAIN-SUFFIX,thetestpage.39.net,REJECT
 
 DOMAIN-SUFFIX,thirdparty.biliapi.com,REJECT
 DOMAIN-SUFFIX,thoughtleadr.com,REJECT
