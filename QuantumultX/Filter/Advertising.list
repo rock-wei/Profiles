@@ -1,6 +1,11 @@
 
 # Advertising 广告
 
+# (0~9)
+# > 51wnl
+DOMAIN,log.51wnl-cq.com,REJECT
+DOMAIN,r.51wnl-cq.com,REJECT
+
 # > Apple
 DOMAIN,ocsp.apple.com,REJECT
 DOMAIN-SUFFIX,iadsdk.apple.com,REJECT
@@ -59,6 +64,7 @@ DOMAIN,als.baidu.com,REJECT
 DOMAIN,duclick.baidu.com,REJECT
 DOMAIN,mobads.baidu.com,REJECT
 DOMAIN,mobads-logs.baidu.com,REJECT
+DOMAIN,nadvideo2.baidu.com,REJECT
 DOMAIN,nsclick.baidu.com,REJECT
 
 DOMAIN-suffix, pos.baidu.com, REJECT
@@ -66,7 +72,9 @@ DOMAIN, hm.baidu.com, REJECT
 DOMAIN, hpd.baidu.com, REJECT
 
 # > ByteDance
+DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
 DOMAIN,ad.toutiao.com,REJECT
+DOMAIN,pangolin.snssdk.com,REJECT
 
 # > BitAuto
 DOMAIN,adx.yiche.com,REJECT
@@ -92,6 +100,9 @@ DOMAIN,adshows.21cn.com,REJECT
 DOMAIN,atrace.chelaile.net.cn,REJECT
 DOMAIN,logs.chelaile.net.cn,REJECT
 
+# > Camera360
+DOMAIN,exp.360in.com,REJECT
+
 # > crashlytics
 DOMAIN-suffix, crashlytics.com, REJECT
 
@@ -100,15 +111,22 @@ DOMAIN-SUFFIX,doubleclick.net,REJECT
 DOMAIN-SUFFIX,googleadservices.com,REJECT
 DOMAIN-SUFFIX,googleadsserving.cn,REJECT
 DOMAIN-SUFFIX,googlesyndication.com,REJECT
+DOMAIN,ads.youtube.com,REJECT
 
 # > HunanTV
 DOMAIN-SUFFIX,da.mgtv.com,REJECT
 DOMAIN-SUFFIX,da.hunantv.com,REJECT
+DOMAIN-SUFFIX,log.hunantv.com,REJECT
+DOMAIN-SUFFIX,v2.hunantv.com,REJECT
 
 # > Hupu
 DOMAIN,adx.hupu.com,REJECT
 DOMAIN,adx-api.hupu.com,REJECT
 DOMAIN,goblin.hupu.com,REJECT
+
+# > happycast
+DOMAIN,adc.hpplay.cn,REJECT
+DOMAIN,rpt.hpplay.cn,REJEC
 
 # > Ifeng
 DOMAIN-SUFFIX,deliver.ifeng.com,REJECT
@@ -117,6 +135,7 @@ DOMAIN,ifengad.3g.ifeng.com,REJECT
 
 # > iqiyi
 DOMAIN,t7z.cupid.iqiyi.com,REJECT
+DOMAIN,t7z.cupid.ptqy.gitv.tv,REJECT
 DOMAIN-SUFFIX,a.ckm.iqiyi.com,REJECT
 DOMAIN-SUFFIX,ad.m.iqiyi.com,REJECT
 DOMAIN-SUFFIX,afp.iqiyi.com,REJECT
@@ -152,6 +171,10 @@ DOMAIN,g.koowo.com,REJECT
 DOMAIN,kgmobilestat.kugou.com,REJECT
 DOMAIN,kgmobilestatbak.kugou.com,REJECT
 DOMAIN,mobilelog.kugou.com,REJECT
+
+# > Kuaishou
+DOMAIN-SUFFIX,e.kuaishou.com,REJECT
+DOMAIN,js-ad.a.yximgs.com,REJECT
 
 # > Kuwo
 DOMAIN,mobilead.kuwo.cn,REJECT
@@ -218,6 +241,7 @@ DOMAIN,ad.bn.netease.com,REJECT
 DOMAIN,ad.yixin.im,REJECT
 DOMAIN,admusicpic.music.126.net,REJECT
 DOMAIN,gorgon.youdao.com,REJECT
+DOMAIN,iad.g.163.com,REJECT
 DOMAIN,iadmat.nosdn.127.net,REJECT
 DOMAIN,iadmusicmat.music.126.net,REJECT
 DOMAIN,iadmusicmatvideo.music.126.net,REJECT
@@ -265,8 +289,17 @@ DOMAIN-SUFFIX,static.app.m.letv.com,REJECT
 DOMAIN-SUFFIX,webp2p.letv.com,REJECT
 DOMAIN-SUFFIX,zamplus.com,REJECT
 
+# > OPPO
+DOMAIN-SUFFIX,ads.oppomobile.com,REJECT
+DOMAIN,adsfs.oppomobile.com,REJECT
+
+# > QingTing
+DOMAIN,adlaunch.qingting.fm,REJECT
+DOMAIN,ad-cdn.qingting.fm,REJECT
+
 # > Sina
 DOMAIN-SUFFIX,beacon.sina.com.cn,REJECT
+DOMAIN,adimg.uve.weibo.com,REJECT
 DOMAIN,adimg.vue.weibo.com,REJECT
 DOMAIN,u1.img.mobile.sina.cn,REJECT
 DOMAIN,sax.sina.com.cn,REJECT
@@ -305,9 +338,11 @@ DOMAIN,splashqqlive.gtimg.com,REJECT
 DOMAIN,wa.gtimg.com,REJECT
 DOMAIN,wxsnsdy.wxs.qq.com,REJECT
 DOMAIN,wxsnsdythumb.wxs.qq.com,REJECT
-
 DOMAIN, ios.bugly.qq.com, REJECT
 DOMAIN, pingma.qq.com, REJECT
+
+# > Tencent Music (TME)
+DOMAIN,ad.tencentmusic.com,REJECT
 
 # > Pcauto太平洋
 DOMAIN,ad-analysis.pconline.com.cn,REJECT
@@ -392,6 +427,26 @@ DOMAIN,hub5btmain.v6.shub.sandai.net,REJECT
 DOMAIN,adm.10jqka.com.cn,REJECT
 DOMAIN,stat.10jqka.com.cn,REJECT
 
+# > VariFlight
+DOMAIN,adv-adlog.variflight.com,REJECT
+DOMAIN,adv-ads.variflight.com,REJECT
+
+# > Viber
+DOMAIN,ads.viber.com,REJECT
+DOMAIN,ads-d.viber.com,REJECT
+DOMAIN,ads.aws.viber.com,REJECT
+
+# > vivo
+DOMAIN,adlog.vivo.com.cn,REJECT
+DOMAIN,adreq.vivo.com.cn,REJECT
+DOMAIN,ads-marketing-vivofs.vivo.com.cn,REJECT
+DOMAIN,adsdk.vivo.com.cn,REJECT
+DOMAIN,adsstatic.vivo.com.cn,REJECT
+DOMAIN,adxlog.vivo.com.cn,REJECT
+DOMAIN,vcardsdkservice.vivo.com.cn,REJECT
+DOMAIN-KEYWORD,stsdk.vivo.com.cn,REJECT
+DOMAIN-KEYWORD,stsdk.vivoglobal.com,REJECT
+
 # > Vod
 DOMAIN-SUFFIX,ad.cmvideo.cn,REJECT
 DOMAIN-SUFFIX,atm.cp31.ott.cibntv.net,REJECT
@@ -408,6 +463,7 @@ DOMAIN,c1wx.lianwangtech.com,REJECT
 
 # > Xiaohongshu小红书
 DOMAIN,ads-img-qc.xhscdn.com,REJECT
+DOMAIN,ads-video-al.xhscdn.com,REJECT
 DOMAIN,ads-video-qc.xhscdn.com,REJECT
 DOMAIN,t-ads.xiaohongshu.com,REJECT
 
@@ -417,11 +473,24 @@ DOMAIN,adbs.ximalaya.com,REJECT
 DOMAIN,adse.ximalaya.com,REJECT
 DOMAIN,adse.wsa.ximalaya.com,REJECT
 DOMAIN,adbehavior.wsa.ximalaya.com,REJECT
+DOMAIN,adbehavior.ximalaya.com,REJECT
 DOMAIN,adsebs.ximalaya.com,REJECT
+
+# > Yahoo
+DOMAIN-SUFFIX,adserver.yahoo.com,REJECT
+DOMAIN-SUFFIX,adspecs.yahoo.com,REJECT
+DOMAIN-SUFFIX,advertising.yahoo.com,REJECT
+DOMAIN,admarketing.yahoo.net,REJECT
+DOMAIN,ads.auctions.yahoo.com,REJECT
+DOMAIN,ads.finance.yahoo.com,REJECT
+DOMAIN,ads.yahoo.com,REJECT
+DOMAIN,ads.yahoo.de,REJECT
+
 
 # > Youku & Tudou
 DOMAIN,ad.mobile.youku.com,REJECT
 DOMAIN,iyes.youku.com,REJECT
+DOMAIN,pl.cp31.ott.cibntv.net,REJECT
 DOMAIN-SUFFIX,atm.youku.com,REJECT
 DOMAIN-SUFFIX,actives.youku.com,REJECT
 DOMAIN-SUFFIX,ad.api.3g.tudou.com,REJECT
@@ -531,6 +600,13 @@ DOMAIN-SUFFIX,traffic.uusee.com,REJECT
 DOMAIN-SUFFIX,union.6.cn,REJECT
 DOMAIN-SUFFIX,wa.gtimg.com,REJECT
 DOMAIN-SUFFIX,bfshan.cn,REJECT
+
+# > Zhihu
+USER-AGENT,AVOS*,REJECT
+DOMAIN,appcloud2.zhihu.com,REJECT
+DOMAIN,appcloud2.in.zhihu.com,REJECT
+DOMAIN,sugar.zhihu.com,REJECT
+IP-CIDR,118.89.204.198/32,REJECT
 
 # > ZOL
 DOMAIN,apppv.zol.com.cn,REJECT
