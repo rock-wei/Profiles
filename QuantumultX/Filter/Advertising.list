@@ -126,7 +126,7 @@ DOMAIN,goblin.hupu.com,REJECT
 
 # > happycast
 DOMAIN,adc.hpplay.cn,REJECT
-DOMAIN,rpt.hpplay.cn,REJEC
+DOMAIN,rpt.hpplay.cn,REJECT
 
 # > Ifeng
 DOMAIN-SUFFIX,deliver.ifeng.com,REJECT
