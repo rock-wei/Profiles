@@ -11,7 +11,16 @@ domain-suffix,akamaized.net,proxy
 domain-suffix,ameba.jp,proxy
 domain-suffix,hayabusa.io,proxy
 
+# > Akamai
+DOMAIN,a248.e.akamai.net,PROXY
+DOMAIN,a771.dscq.akamai.net,PROXY
+
 # > Amazon
+DOMAIN-SUFFIX,amazon.co.jp,PROXY
+DOMAIN,d3c33hcgiwev3.cloudfront.net,PROXY
+DOMAIN,payments-jp.amazon.com,PROXY
+DOMAIN,s3-ap-northeast-1.amazonaws.com,PROXY
+DOMAIN,s3-ap-southeast-2.amazonaws.com,PROXY
 IP-CIDR,13.32.0.0/16,proxy,no-resolve
 IP-CIDR,13.33.0.0/16,proxy,no-resolve
 IP-CIDR,13.35.0.0/17,proxy,no-resolve
@@ -44,6 +53,10 @@ domain-suffix,bbci.co.uk,proxy
 user-agent,TwDramas*,proxy
 domain-suffix,chocotv.com.tw,proxy
 
+# > Clubhouse
+DOMAIN-SUFFIX,clubhouseapi.com,PROXY
+DOMAIN-SUFFIX,joinclubhouse.com,PROXY
+
 # > Disney Plus
 user-agent,Disney*,proxy
 domain,cdn.registerdisney.go.com,proxy
@@ -53,7 +66,35 @@ domain-suffix,dssott.com,proxy
 domain-suffix,bamgrid.com,proxy
 domain-suffix,execute-api.us-east-1.amazonaws.com,proxy
 
+# > Now E
+user-agent,PCCW*,proxy
+domain-keyword,nowe,proxy
+domain,bcbolthboa-a.akamaihd.net,proxy
+domain-suffix,nowe.com,proxy
+domain-suffix,youboranqs01.com,proxy
+
+# > Epicgames
+domain-keyword,epicgames,proxy
+domain-suffix,helpshift.com,proxy
+
 # > Facebook
+DOMAIN-SUFFIX,cdninstagram.com,PROXY
+DOMAIN-SUFFIX,facebook.com,PROXY
+DOMAIN-SUFFIX,facebook.net,PROXY
+DOMAIN-SUFFIX,fb.com,PROXY
+DOMAIN-SUFFIX,fb.me,PROXY
+DOMAIN-SUFFIX,fbaddins.com,PROXY
+DOMAIN-SUFFIX,fbcdn.net,PROXY
+DOMAIN-SUFFIX,fbsbx.com,PROXY
+DOMAIN-SUFFIX,fbworkmail.com,PROXY
+DOMAIN-SUFFIX,instagram.com,PROXY
+DOMAIN-SUFFIX,m.me,PROXY
+DOMAIN-SUFFIX,messenger.com,PROXY
+DOMAIN-SUFFIX,oculus.com,PROXY
+DOMAIN-SUFFIX,oculuscdn.com,PROXY
+DOMAIN-SUFFIX,rocksdb.org,PROXY
+DOMAIN-SUFFIX,whatsapp.com,PROXY
+DOMAIN-SUFFIX,whatsapp.net,PROXY
 IP-CIDR,103.4.96.0/22,proxy,no-resolve
 IP-CIDR,129.134.0.0/17,proxy,no-resolve
 IP-CIDR,157.240.0.0/17,proxy,no-resolve
@@ -77,16 +118,30 @@ IP-CIDR,69.171.224.0/19,proxy,no-resolve
 IP-CIDR,69.63.176.0/20,proxy,no-resolve
 IP-CIDR,74.119.76.0/22,proxy,no-resolve
 
-# > Now E
-user-agent,PCCW*,proxy
-domain-keyword,nowe,proxy
-domain,bcbolthboa-a.akamaihd.net,proxy
-domain-suffix,nowe.com,proxy
-domain-suffix,youboranqs01.com,proxy
-
-# > Epicgames
-domain-keyword,epicgames,proxy
-domain-suffix,helpshift.com,proxy
+# > Google
+domain-suffix,ampproject.org,proxy
+domain-suffix,appspot.com,proxy
+domain-suffix,blogger.com,proxy
+domain-suffix,getoutline.org,proxy
+domain-suffix,gvt0.com,proxy
+domain-suffix,gvt1.com,proxy
+domain-suffix,gvt3.com,proxy
+domain-suffix,xn--ngstr-lra8j.com,proxy
+DOMAIN-SUFFIX,ytimg.com,PROXY
+domain-keyword,google,proxy
+domain-keyword,blogspot,proxy
+IP-CIDR,35.190.247.0/24,PROXY,no-resolve
+IP-CIDR,64.233.160.0/19,PROXY,no-resolve
+IP-CIDR,66.102.0.0/20,PROXY,no-resolve
+IP-CIDR,66.249.80.0/20,PROXY,no-resolve
+IP-CIDR,72.14.192.0/18,PROXY,no-resolve
+IP-CIDR,74.125.0.0/16,PROXY,no-resolve
+IP-CIDR,108.177.8.0/21,PROXY,no-resolve
+IP-CIDR,172.217.0.0/16,PROXY,no-resolve
+IP-CIDR,173.194.0.0/16,PROXY,no-resolve
+IP-CIDR,209.85.128.0/17,PROXY,no-resolve
+IP-CIDR,216.58.192.0/19,PROXY,no-resolve
+IP-CIDR,216.239.32.0/19,PROXY,no-resolve
 
 # > Fox+
 user-agent,FOX%20NOW*,proxy
@@ -136,6 +191,28 @@ IP-CIDR,103.27.148.0/22,proxy,no-resolve
 IP-CIDR,110.76.140.0/22,proxy,no-resolve
 IP-CIDR,113.61.104.0/22,proxy,no-resolve
 IP-CIDR,27.0.236.0/22,proxy,no-resolve
+
+# > Microsoft proxy
+;user-agent,OneDrive*,proxy
+;HOST-KEYWORD,onedrive,proxy
+;domain-suffix,onedrive.com,proxy
+;domain-suffix,onedrive.live.com,proxy
+;domain-suffix,storage.live.com,proxy
+;domain-suffix,skype.com,proxy
+;domain-suffix,xboxlive.com,proxy
+;DOMAIN-SUFFIX,1drv.com,PROXY
+;DOMAIN-SUFFIX,1drv.ms,PROXY
+;DOMAIN-SUFFIX,aka.ms,PROXY
+;DOMAIN-SUFFIX,blob.core.windows.net,PROXY
+;DOMAIN-SUFFIX,livefilestore.com,PROXY
+;DOMAIN-SUFFIX,onedrive.com,PROXY
+;DOMAIN-SUFFIX,onedrive.live.com,PROXY
+;DOMAIN-SUFFIX,storage.live.com,PROXY
+;DOMAIN-SUFFIX,storage.msn.com,PROXY
+;DOMAIN-SUFFIX,streaming.mediaservices.windows.net,PROXY
+;DOMAIN,az416426.vo.msecnd.net,PROXY
+;DOMAIN,az668014.vo.msecnd.net,PROXY
+;DOMAIN,oneclient.sfx.ms,PROXY
 
 # > MytvSUPER
 user-agent,mytv*,proxy
@@ -203,6 +280,7 @@ domain-suffix,line-cdn.net,proxy
 domain-suffix,line-scdn.net,proxy
 domain-suffix,nhncorp.jp,proxy
 IP-CIDR,103.2.28.0/22,proxy,no-resolve
+IP-CIDR,103.2.30.0/23,PROXY,no-resolve
 IP-CIDR,119.235.224.0/21,proxy,no-resolve
 IP-CIDR,119.235.232.0/23,proxy,no-resolve
 IP-CIDR,119.235.235.0/24,proxy,no-resolve
@@ -211,8 +289,10 @@ IP-CIDR,125.6.146.0/24,proxy,no-resolve
 IP-CIDR,125.6.149.0/24,proxy,no-resolve
 IP-CIDR,125.6.190.0/24,proxy,no-resolve
 IP-CIDR,125.209.208.0/20,proxy,no-resolve
+IP-CIDR,147.92.128.0/17,PROXY,no-resolve
 IP-CIDR,203.104.103.0/24,proxy,no-resolve
 IP-CIDR,203.104.128.0/20,proxy,no-resolve
+IP-CIDR,203.104.144.0/21,PROXY,no-resolve
 IP-CIDR,203.174.66.64/26,proxy,no-resolve
 IP-CIDR,203.174.77.0/24,proxy,no-resolve
 
@@ -247,38 +327,6 @@ domain-suffix,v2ex.com,proxy
 # > Zooba
 user-agent,battleroyale*,proxy
 
-# > Google
-domain-suffix,ampproject.org,proxy
-domain-suffix,appspot.com,proxy
-domain-suffix,blogger.com,proxy
-domain-suffix,getoutline.org,proxy
-domain-suffix,gvt0.com,proxy
-domain-suffix,gvt1.com,proxy
-domain-suffix,gvt3.com,proxy
-domain-suffix,xn--ngstr-lra8j.com,proxy
-domain-keyword,google,proxy
-domain-keyword,blogspot,proxy
-IP-CIDR,173.194.0.0/16,proxy,no-resolve
-IP-CIDR,74.125.0.0/16,proxy,no-resolve
-
-# > Microsoft proxy
-;user-agent,OneDrive*,proxy
-;HOST-KEYWORD,onedrive,proxy
-;domain-suffix,onedrive.com,proxy
-;domain-suffix,onedrive.live.com,proxy
-;domain-suffix,storage.live.com,proxy
-;domain-suffix,skype.com,proxy
-;domain-suffix,xboxlive.com,proxy
-# > Microsoft OneDrive
-DOMAIN-SUFFIX,1drv.com,PROXY
-DOMAIN-SUFFIX,1drv.ms,PROXY
-DOMAIN-SUFFIX,blob.core.windows.net,PROXY
-DOMAIN-SUFFIX,livefilestore.com,PROXY
-DOMAIN-SUFFIX,onedrive.com,PROXY
-DOMAIN-SUFFIX,storage.live.com,PROXY
-DOMAIN-SUFFIX,storage.msn.com,PROXY
-DOMAIN,oneclient.sfx.ms,PROXY
-
 # > PayPal
 user-agent,PayPal*,proxy
 domain-suffix,paypal.com,proxy
@@ -290,33 +338,6 @@ domain-suffix,phprcdn.com,proxy
 domain-suffix,pornhub.com,proxy
 domain-suffix,pornhubpremium.com,proxy
 
-# > Facebook
-domain-suffix,cdninstagram.com,proxy
-domain-suffix,fb.com,proxy
-domain-suffix,fb.me,proxy
-domain-suffix,fbaddins.com,proxy
-domain-suffix,fbcdn.net,proxy
-domain-suffix,fbsbx.com,proxy
-domain-suffix,fbworkmail.com,proxy
-domain-suffix,instagram.com,proxy
-domain-suffix,m.me,proxy
-domain-suffix,messenger.com,proxy
-domain-suffix,oculus.com,proxy
-domain-suffix,oculuscdn.com,proxy
-domain-suffix,rocksdb.org,proxy
-domain-suffix,whatsapp.com,proxy
-domain-suffix,whatsapp.net,proxy
-domain-keyword,facebook,proxy
-IP-CIDR,3.123.36.126/32,proxy
-IP-CIDR,35.157.215.84/32,proxy
-IP-CIDR,35.157.217.255/32,proxy
-IP-CIDR,52.58.209.134/32,proxy
-IP-CIDR,54.93.124.31/32,proxy
-IP-CIDR,54.162.243.80/32,proxy
-IP-CIDR,54.173.34.141/32,proxy
-IP-CIDR,54.235.23.242/32,proxy
-IP-CIDR,169.45.248.118/32,proxy
-
 # > Twitter
 domain-suffix,pscp.tv,proxy
 domain-suffix,periscope.tv,proxy
@@ -324,8 +345,18 @@ domain-suffix,t.co,proxy
 domain-suffix,twimg.co,proxy
 domain-suffix,twimg.com,proxy
 domain-suffix,twitpic.com,proxy
+DOMAIN-SUFFIX,twitter.com,PROXY
+DOMAIN-SUFFIX,twitter.jp,PROXY
 domain-suffix,vine.co,proxy
 domain-keyword,twitter,proxy
+IP-CIDR,69.195.160.0/19,PROXY
+IP-CIDR,104.244.42.0/21,PROXY
+IP-CIDR,192.133.76.0/22,PROXY
+IP-CIDR,199.16.156.0/22,PROXY
+IP-CIDR,199.59.148.0/22,PROXY
+IP-CIDR,199.96.56.0/21,PROXY
+IP-CIDR,202.160.128.0/22,PROXY
+IP-CIDR,209.237.192.0/19,PROXY
 
 # > Telegram
 HOST-KEYWORD,telegram,proxy
@@ -339,12 +370,16 @@ IP-CIDR,91.108.4.0/22,proxy
 IP-CIDR,91.108.8.0/22,proxy
 IP-CIDR,91.108.12.0/22,proxy
 IP-CIDR,91.108.16.0/22,proxy
+IP-CIDR,91.108.20.0/22,PROXY
 IP-CIDR,91.108.56.0/22,proxy
 IP-CIDR,149.154.160.0/20,proxy
 IP-CIDR,149.154.164.0/22,proxy
 IP-CIDR,149.154.168.0/22,proxy
 IP-CIDR,149.154.172.0/22,proxy
 IP-CIDR,109.239.140.0/24,proxy
+IP6-CIDR,2001:b28:f23d::/48,PROXY
+IP6-CIDR,2001:b28:f23f::/48,PROXY
+IP6-CIDR,2001:67c:4e8::/48,PROXY
 
 # > TikTok
 user-agent,TikTok*,proxy
@@ -353,6 +388,13 @@ domain-suffix,muscdn.com,proxy
 domain-suffix,musical.ly,proxy
 domain-suffix,tiktokv.com,proxy
 domain-suffix,tiktokcdn.com,proxy
+
+# > Wikimedia
+IP-CIDR,91.198.174.0/24,PROXY
+IP-CIDR,103.102.166.0/24,PROXY
+IP-CIDR,185.15.56.0/22,PROXY
+IP-CIDR,198.35.26.0/23,PROXY
+IP-CIDR,208.80.152.0/22,PROXY
 
 # > Line
 domain-suffix,line.me,proxy
@@ -404,6 +446,7 @@ domain-suffix,androidify.com,proxy
 domain-suffix,android-x86.org,proxy
 domain-suffix,angularjs.org,proxy
 domain-suffix,anthonycalzadilla.com,proxy
+DOMAIN-SUFFIX,ao3.org,PROXY
 domain-suffix,aol.com,proxy
 domain-suffix,aolcdn.com,proxy
 domain-suffix,api.mixpanel.com,proxy
@@ -412,6 +455,7 @@ domain-suffix,api.tiktokv.com,proxy
 domain-suffix,api.urbandictionary.com,proxy
 domain-suffix,apigee.com,proxy
 domain-suffix,apk-dl.com,proxy
+DOMAIN-SUFFIX,apkcombo.com,PROXY
 domain-suffix,apkfind.com,proxy
 domain-suffix,apkmirror.com,proxy
 domain-suffix,apkmonk.com,proxy
@@ -424,6 +468,8 @@ domain-suffix,aptoide.com,proxy
 domain-suffix,archive.is,proxy
 domain-suffix,archives.gov,proxy
 domain-suffix,archive.org,proxy
+DOMAIN-SUFFIX,archiveofourown.com,PROXY
+DOMAIN-SUFFIX,archiveofourown.org,PROXY
 domain-suffix,arcgis.com,proxy
 domain-suffix,armorgames.com,proxy
 domain-suffix,arte.tv,proxy
@@ -442,6 +488,7 @@ domain-suffix,azurewebsites.net,proxy
 domain-suffix,badoo.com,proxy
 domain-suffix,bandisoft.com,proxy
 domain-suffix,bandwagonhost.com,proxy
+DOMAIN-SUFFIX,bangkokpost.com,PROXY
 domain-suffix,bbc.com,proxy
 domain-suffix,bbtoystore.com,proxy
 domain-suffix,behance.net,proxy
@@ -485,8 +532,10 @@ domain-suffix,botanwang.com,proxy
 domain-suffix,box.com,proxy
 domain-suffix,box.net,proxy
 domain-suffix,boxun.com,proxy
+DOMAIN-SUFFIX,brave.com,PROXY
 DOMAIN-SUFFIX,broadcast.co.nz,PROXY
 domain-suffix,businessinsider.com,proxy
+DOMAIN-SUFFIX,buzzfeed.com,PROXY
 domain-suffix,bwh1.net,proxy
 domain-suffix,cachefly.net,proxy
 DOMAIN-SUFFIX,camfrog.com,PROXY
@@ -512,6 +561,7 @@ DOMAIN-SUFFIX,citypopulation.de,PROXY
 domain-suffix,ck101.com,proxy
 domain-suffix,clarionproject.org,proxy
 domain-suffix,cl.ly,proxy
+DOMAIN-SUFFIX,cloudcone.com,PROXY
 domain-suffix,cloudflare.com,proxy
 domain-suffix,cloudfront.net,proxy
 domain-suffix,cloudgarage.jp,proxy
@@ -545,6 +595,7 @@ domain-suffix,dayone.me,proxy
 domain-suffix,daum.net,proxy
 domain-suffix,daumcdn.net,proxy
 domain-suffix,db.tt,proxy
+DOMAIN-SUFFIX,dcard.tw,PROXY
 domain-suffix,dcmilitary.com,proxy
 domain-suffix,deja.com,proxy
 domain-suffix,demdex.net,proxy
@@ -553,6 +604,7 @@ domain-suffix,disconnect.me,proxy
 domain-suffix,digisfera.com,proxy
 domain-suffix,digitaltrends.com,proxy
 domain-suffix,dcard.tw,proxy
+DOMAIN-SUFFIX,deadline.com,PROXY
 domain-suffix,deepdiscount.com,proxy
 domain-suffix,depositphotos.com,proxy
 domain-suffix,deviantart.com,proxy
@@ -565,6 +617,7 @@ domain-suffix,disqus.com,proxy
 domain-suffix,disquscdn.com,proxy
 domain-suffix,dlercloud.com,proxy
 domain-suffix,dmm.co.jp,proxy
+DOMAIN-SUFFIX,dmhy.org,PROXY
 domain-suffix,dnsimple.com,proxy
 domain-suffix,dns2go.com,proxy
 domain-suffix,docker.com,proxy
@@ -578,6 +631,7 @@ DOMAIN-SUFFIX,dropboxapi.com,PROXY
 DOMAIN-SUFFIX,duolingo.cn,PROXY
 domain-suffix,duckduckgo.com,proxy
 domain-suffix,dueapp.com,proxy
+DOMAIN-SUFFIX,duyaoss.com,PROXY
 domain-suffix,dw.com,proxy
 domain-suffix,dynu.com,proxy
 domain-suffix,easybib.com,proxy
@@ -588,6 +642,8 @@ DOMAIN-SUFFIX,edditstatic.com,PROXY
 domain-suffix,edgecastcdn.net,proxy
 domain-suffix,edgekey.net,proxy
 domain-suffix,edgesuite.net,proxy
+DOMAIN-SUFFIX,edu,PROXY
+DOMAIN-SUFFIX,edx-cdn.org,PROXY
 domain-suffix,elpais.com,proxy
 domain-suffix,enanyang.my,proxy
 domain-suffix,encyclopedia.com,proxy
@@ -606,7 +662,9 @@ domain-suffix,fastly.net,proxy
 domain-suffix,fastmail.com,proxy
 domain-suffix,fc2.com,proxy
 domain-suffix,feedburner.com,proxy
+DOMAIN-SUFFIX,feeder.co,PROXY
 domain-suffix,feedly.com,proxy
+DOMAIN-SUFFIX,feedx.net,PROXY
 domain-suffix,feedsportal.com,proxy
 domain-suffix,firech.at,proxy
 domain-suffix,fiftythree.com,proxy
@@ -620,12 +678,15 @@ domain-suffix,flitto.com,proxy
 domain-suffix,flurry.com,proxy
 DOMAIN-SUFFIX,focustaiwan.tw,PROXY
 domain-suffix,foreignpolicy.com,proxy
+DOMAIN-SUFFIX,fortawesome.com,PROXY
 DOMAIN-SUFFIX,free.fr,PROXY
 domain-suffix,freebrowser.org,proxy
 domain-suffix,freeopenproxy.com,proxy
+DOMAIN-SUFFIX,freetls.fastly.net,PROXY
 domain-suffix,freewechat.com,proxy
 domain-suffix,freeweibo.com,proxy
 domain-suffix,friday.tw,proxy
+DOMAIN-SUFFIX,ft.com,PROXY
 domain-suffix,ftchinese.com,proxy
 domain-suffix,ftimg.net,proxy
 domain-suffix,fubo.tv,proxy
@@ -638,12 +699,16 @@ domain-suffix,gameloft.com,proxy
 domain-suffix,gate.io,proxy
 domain-suffix,getlantern.org,proxy
 domain-suffix,geni.us,proxy
+DOMAIN-SUFFIX,genius.com,PROXY
 domain-suffix,get.how,proxy
 domain-suffix,getcloudapp.com,proxy
 domain-suffix,getfoxyproxy.org,proxy
 domain-suffix,getmdl.io,proxy
 domain-suffix,getpricetag.com,proxy
 domain-suffix,getsync.com,proxy
+DOMAIN-SUFFIX,github.com,PROXY
+DOMAIN-SUFFIX,github.io,PROXY
+DOMAIN-SUFFIX,githubusercontent.com,PROXY
 domain-suffix,gfw.press,proxy
 domain-suffix,gfx.ms,proxy
 domain-suffix,ggpht.com,proxy
@@ -692,6 +757,7 @@ DOMAIN-SUFFIX,hosting.co.uk,PROXY
 domain-suffix,hootsuite.com,proxy
 domain-suffix,howtoforge.com,proxy
 domain-suffix,hudson.org,proxy
+DOMAIN-SUFFIX,huffpost.com,PROXY
 DOMAIN-SUFFIX,hwcdn.net,PROXY
 domain-suffix,hyread.com.tw,proxy
 domain-suffix,ibtimes.com,proxy
@@ -707,6 +773,7 @@ domain-suffix,imageshack.us,proxy
 domain-suffix,img.ly,proxy
 domain-suffix,imgur.com,proxy
 domain-suffix,imore.com,proxy
+DOMAIN-SUFFIX,independent.co.uk,PROXY
 domain-suffix,initiummall.com,proxy
 domain-suffix,ingress.com,proxy
 domain-suffix,inoreader.com,proxy
@@ -750,6 +817,8 @@ domain-suffix,kakaocdn.net,proxy
 domain-suffix,kat.cr,proxy
 domain-suffix,kenengba.com,proxy
 domain-suffix,kik.com,proxy
+DOMAIN-SUFFIX,kingkong.com.tw,PROXY
+DOMAIN-SUFFIX,knowyourmeme.com,PROXY
 domain-suffix,klip.me,proxy
 domain-suffix,kobo.com,proxy
 domain-suffix,kobobooks.com,proxy
@@ -763,6 +832,7 @@ domain-suffix,libsyn.com,proxy
 domain-suffix,licdn.com,proxy
 domain-suffix,lightboxcdn.com,proxy
 domain-suffix,like.com,proxy
+DOMAIN-SUFFIX,limbopro.xyz,PROXY
 domain-suffix,linkedin.com,proxy
 DOMAIN-SUFFIX,linksalpha.com,PROXY
 domain-suffix,linode.com,proxy
@@ -774,6 +844,7 @@ domain-suffix,listennotes.com,proxy
 domain-suffix,livestream.com,proxy
 domain-suffix,llnwd.net,proxy
 domain-suffix,localnetwork.uop,proxy
+DOMAIN-SUFFIX,logimg.jp,PROXY
 domain-suffix,logmein.com,proxy
 domain-suffix,macid.co,proxy
 domain-suffix,macromedia.com,proxy
@@ -796,6 +867,7 @@ domain-suffix,megaupload.com,proxy
 domain-suffix,microsofttranslator.com,proxy
 domain-suffix,mil,proxy
 domain-suffix,mindnode.com,proxy
+DOMAIN-SUFFIX,mixi.jp,PROXY
 domain-suffix,mlssoccer.com,proxy
 domain-suffix,mingpao.com,proxy
 domain-suffix,mobile01.com,proxy
@@ -803,6 +875,7 @@ domain-suffix,modmyi.com,proxy
 domain-suffix,moves-export.com,proxy
 domain-suffix,mp3buscador.com,proxy
 domain-suffix,msedge.net,proxy
+DOMAIN-SUFFIX,mubi.com,PROXY
 DOMAIN-SUFFIX,myactimes.com,PROXY
 domain-suffix,mycnnews.com,proxy
 domain-suffix,myfontastic.com,proxy
@@ -819,7 +892,9 @@ domain-suffix,nintendo.net,proxy
 domain-suffix,myspace.com,proxy
 domain-suffix,myspacecdn.com,proxy
 domain-suffix,nanyang.com,proxy
+DOMAIN-SUFFIX,nationalinterest.org,PROXY
 domain-suffix,naver.com,proxy
+DOMAIN-SUFFIX,nbcnews.com,PROXY
 domain-suffix,neowin.net,proxy
 domain-suffix,newstapa.org,proxy
 domain-suffix,nexitally.com,proxy
@@ -832,9 +907,12 @@ domain-suffix,novafile.com,proxy
 domain-suffix,now.com,proxy
 DOMAIN-SUFFIX,now.im,PROXY
 DOMAIN-SUFFIX,nowe.com,PROXY
+DOMAIN-SUFFIX,noxinfluencer.com,PROXY
 domain-suffix,nsstatic.net,proxy
 domain-suffix,nssurge.com,proxy
 domain-suffix,nrk.no,proxy
+DOMAIN-SUFFIX,nuget.org,PROXY
+DOMAIN-SUFFIX,nyaa.si,PROXY
 domain-suffix,nyt.com,proxy
 domain-suffix,nytchina.com,proxy
 domain-suffix,nytcn.me,proxy
@@ -869,10 +947,12 @@ domain-suffix,parallels.com,proxy
 domain-suffix,parse.com,proxy
 domain-suffix,pao-pao.net,proxy
 domain-suffix,parsevideo.com,proxy
+DOMAIN-SUFFIX,pawoo.net,PROXY
 domain-suffix,pbxes.com,proxy
 domain-suffix,pcdvd.com.tw,proxy
 domain-suffix,pchome.com.tw,proxy
 domain-suffix,pcloud.com,proxy
+DOMAIN-SUFFIX,peing.net,PROXY
 domain-suffix,pdfexpert.com,proxy
 domain-suffix,periscope.tv,proxy
 domain-suffix,piaotian.net,proxy
@@ -911,7 +991,10 @@ domain-suffix,pubu.tw,proxy
 domain-suffix,pureapk.com,proxy
 domain-suffix,quora.com,proxy
 domain-suffix,quoracdn.net,proxy
+DOMAIN-SUFFIX,qz.com,PROXY
+DOMAIN-SUFFIX,radio.garden,PROXY
 domain-suffix,rakuten.co.jp,proxy
+DOMAIN-SUFFIX,rarbgprx.org,PROXY
 domain-suffix,readingtimes.com.tw,proxy
 domain-suffix,readmoo.com,proxy
 domain-suffix,recaptcha.net,proxy
@@ -920,6 +1003,7 @@ domain-suffix,rileyguide.com,proxy
 domain-suffix,rime.im,proxy
 domain-suffix,rsf.org,proxy
 domain-suffix,redbubble.com,proxy
+DOMAIN-SUFFIX,redd.it,PROXY
 domain-suffix,reddit.com,proxy
 domain-suffix,redditmedia.com,proxy
 domain-suffix,resilio.com,proxy
@@ -928,6 +1012,7 @@ domain-suffix,reutersmedia.net,proxy
 domain-suffix,rfi.fr,proxy
 domain-suffix,rixcloud.com,proxy
 domain-suffix,roadshow.hk,proxy
+DOMAIN-SUFFIX,rsshub.app,PROXY
 DOMAIN-SUFFIX,s3.amazonaws.com,PROXY
 domain-suffix,sciencedaily.com,proxy
 domain-suffix,sciencemag.org,proxy
@@ -943,7 +1028,9 @@ domain-suffix,shadowverse.jp,proxy
 domain-suffix,sharethis.com,proxy
 domain-suffix,shazam.com,proxy
 domain-suffix,shadowsocks.org,proxy
+DOMAIN-SUFFIX,shindanmaker.com,PROXY
 domain-suffix,shopee.tw,proxy
+DOMAIN-SUFFIX,sina.com.hk,PROXY
 domain-suffix,shutterstock.com,proxy
 domain-suffix,sidelinesnews.com,proxy
 DOMAIN-SUFFIX,signal.org,PROXY
@@ -965,6 +1052,7 @@ domain-suffix,soundcloud.com,proxy
 domain-suffix,sourceforge.net,proxy
 domain-suffix,sowers.org.hk,proxy
 domain-suffix,softfamous.com,proxy
+DOMAIN-SUFFIX,spiegel.de,PROXY
 DOMAIN-SUFFIX,sparknotes.com,PROXY
 domain-suffix,speedsmart.net,proxy
 domain-suffix,spike.com,proxy
@@ -982,6 +1070,9 @@ domain-suffix,startpage.com,proxy
 domain-suffix,steamcommunity.com,proxy
 domain-suffix,steemit.com,proxy
 domain-suffix,steemitwallet.com,proxy
+DOMAIN-SUFFIX,straitstimes.com,PROXY
+DOMAIN-SUFFIX,streamable.com,PROXY
+DOMAIN-SUFFIX,streema.com,PROXY
 DOMAIN-SUFFIX,streetvoice.com,PROXY
 domain-suffix,stumbleupon.com,proxy
 domain-suffix,sugarsync.com,proxy
@@ -1002,8 +1093,10 @@ domain-suffix,teddysun.com,proxy
 domain-suffix,textnow.me,proxy
 domain-suffix,theguardian.com,proxy
 domain-suffix,theinitium.com,proxy
+DOMAIN-SUFFIX,themoviedb.org,PROXY
 domain-suffix,thetvdb.com,proxy
 domain-suffix,tineye.com,proxy
+DOMAIN-SUFFIX,tinyurl.com,PROXY
 domain-suffix,torproject.org,proxy
 domain-suffix,tumblr.com,proxy
 domain-suffix,turbobit.net,proxy
@@ -1020,6 +1113,7 @@ domain-suffix,uptodown.com,proxy
 domain-suffix,urbandictionary.com,proxy
 domain-suffix,ustream.tv,proxy
 domain-suffix,uwants.com,proxy
+DOMAIN-SUFFIX,v2fly.org,PROXY
 domain-suffix,v2ray.com,proxy
 domain-suffix,viber.com,proxy
 domain-suffix,videopress.com,proxy
@@ -1031,6 +1125,7 @@ domain-suffix,vzw.com,proxy
 domain-suffix,w3schools.com,proxy
 domain-suffix,washingtonpost.com,proxy
 domain-suffix,wattpad.com,proxy
+DOMAIN-SUFFIX,weebly.com,PROXY
 domain-suffix,whoer.net,proxy
 DOMAIN-SUFFIX,wikia.com,PROXY
 domain-suffix,wikimapia.org,proxy
@@ -1072,6 +1167,11 @@ domain-keyword,jav,proxy
 domain-keyword,pinterest,proxy
 domain-keyword,porn,proxy
 domain-keyword,wikileaks,proxy
+
+DOMAIN,cc.tvbs.com.tw,PROXY
+DOMAIN,ocsp.int-x3.letsencrypt.org,PROXY
+DOMAIN,search.avira.com,PROXY
+DOMAIN,us.weibo.com,PROXY
 
 # (Region-Restricted Access Denied)
 domain-suffix,apartmentratings.com,proxy
@@ -1131,12 +1231,19 @@ domain,testflight.apple.com,proxy
 domain-suffix,appsto.re,proxy
 # >> iBooks Store download
 domain,books.itunes.apple.com,proxy
+# > App Store Preview
+DOMAIN,apps.apple.com,PROXY
+DOMAIN,itunes.apple.com,PROXY
 # >> iTunes Store Moveis Trailers
 domain,hls.itunes.apple.com,proxy
 # >> Spotlight
 domain,api-glb-sea.smoot.apple.com,proxy
 # >> Dictionary
+DOMAIN-SUFFIX,smoot.apple.com,PROXY
 domain,lookup-api.apple.com,proxy
+# > Apple Music Web
+DOMAIN,beta.music.apple.com,PROXY
+
 # > Google
 domain-suffix,abc.xyz,proxy
 domain-suffix,android.com,proxy
@@ -1152,6 +1259,8 @@ domain-suffix,chromium.org,proxy
 domain-suffix,creativelab5.com,proxy
 domain-suffix,debug.com,proxy
 domain-suffix,deepmind.com,proxy
+DOMAIN-SUFFIX,dubox.com,PROXY
+DOMAIN-SUFFIX,duboxcdn.com,PROXY
 domain-suffix,firebaseio.com,proxy
 domain-suffix,getmdl.io,proxy
 domain-suffix,ggpht.com,proxy
@@ -1164,11 +1273,13 @@ domain-suffix,gv.com,proxy
 domain-suffix,gwtproject.org,proxy
 domain-suffix,itasoftware.com,proxy
 domain-suffix,madewithcode.com,proxy
+DOMAIN-SUFFIX,mangakakalot.com,PROXY
 domain-suffix,material.io,proxy
 domain-suffix,polymer-project.org,proxy
 domain-suffix,admin.recaptcha.net,proxy
 domain-suffix,recaptcha.net,proxy
 domain-suffix,shattered.io,proxy
+DOMAIN-SUFFIX,shopeemobile.com,PROXY
 domain-suffix,synergyse.com,proxy
 domain-suffix,tensorflow.org,proxy
 domain-suffix,tfhub.dev,proxy
@@ -1481,3 +1592,23 @@ domain-suffix,webmproject.org,proxy
 domain-suffix,webrtc.org,proxy
 DOMAIN,api.steampowered.com,PROXY
 DOMAIN,store.steampowered.com,PROXY
+
+# (Network Jitter)
+# > Apple
+DOMAIN,appleid.apple.com,PROXY
+DOMAIN,developer.apple.com,PROXY
+DOMAIN,www.icloud.com,PROXY
+DOMAIN,ocsp.apple.com,PROXY
+DOMAIN,xp.apple.com,PROXY
+# > DigiCert
+DOMAIN,cacerts.digicert.com,PROXY
+DOMAIN,crl3.digicert.com,PROXY
+DOMAIN,crl4.digicert.com,PROXY
+DOMAIN,ocsp.digicert.com,PROXY
+# > Others
+DOMAIN-SUFFIX,cloudcone.com.cn,PROXY
+DOMAIN-SUFFIX,inkbunny.net,PROXY
+DOMAIN-SUFFIX,metapix.net,PROXY
+DOMAIN,international-gfe.download.nvidia.com,PROXY
+DOMAIN,store-images.s-microsoft.com,PROXY
+
