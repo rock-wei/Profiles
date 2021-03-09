@@ -2056,6 +2056,7 @@ DOMAIN-SUFFIX,api.y.igexin.com,REJECT
 DOMAIN-SUFFIX,api.youxiaoad.com,REJECT
 DOMAIN-SUFFIX,api.zol.com,REJECT
 DOMAIN-SUFFIX,api2.play.cn,REJECT
+DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao-b.com,REJECT
 DOMAIN-SUFFIX,api-flow.flyme.cn,REJECT
 DOMAIN-SUFFIX,api-game.meizu.com,REJECT
 DOMAIN-SUFFIX,apihk.growingio.com,REJECT
