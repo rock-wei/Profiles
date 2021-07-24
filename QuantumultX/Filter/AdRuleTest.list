@@ -1,3 +1,5 @@
+##https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/AdRuleTest.list
+
 #Update 2021.1.30 Self-use for testing only
 DOMAIN-SUFFIX,admaster.com,REJECT
 DOMAIN-SUFFIX,0z5jn.cn,REJECT
