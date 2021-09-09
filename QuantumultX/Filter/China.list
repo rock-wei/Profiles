@@ -1,3 +1,4 @@
+##https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/China.list
 # China Area Network
 # > 360
 DOMAIN-SUFFIX,qhres.com,DIRECT
@@ -332,7 +333,6 @@ DOMAIN-SUFFIX,ronghub.com,DIRECT
 DOMAIN-SUFFIX,ruguoapp.com,DIRECT
 DOMAIN-SUFFIX,sankuai.com,DIRECT
 DOMAIN-SUFFIX,scomper.me,DIRECT
-DOMAIN-SUFFIX,seafile.com,DIRECT
 DOMAIN-SUFFIX,sm.ms,DIRECT
 DOMAIN-SUFFIX,smzdm.com,DIRECT
 DOMAIN-SUFFIX,snapdrop.net,DIRECT
