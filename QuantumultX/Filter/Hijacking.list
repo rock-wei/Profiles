@@ -1,4 +1,4 @@
-# Internet Service Providers Hijacking 运营商劫持
+# Internet Service Providers Hijacking
 DOMAIN-SUFFIX,17gouwuba.com,REJECT
 DOMAIN-SUFFIX,186078.com,REJECT
 DOMAIN-SUFFIX,189zj.cn,REJECT
@@ -16,7 +16,6 @@ DOMAIN-SUFFIX,7gg.cc,REJECT
 DOMAIN-SUFFIX,91veg.com,REJECT
 DOMAIN-SUFFIX,9s6q.cn,REJECT
 DOMAIN-SUFFIX,adsame.com,REJECT
-DOMAIN-SUFFIX,aiclk.com,REJECT
 DOMAIN-SUFFIX,akuai.top,REJECT
 DOMAIN-SUFFIX,atplay.cn,REJECT
 DOMAIN-SUFFIX,baiwanchuangyi.com,REJECT
@@ -61,6 +60,7 @@ DOMAIN-SUFFIX,kawo77.com,REJECT
 DOMAIN-SUFFIX,kualianyingxiao.cn,REJECT
 DOMAIN-SUFFIX,kumihua.com,REJECT
 DOMAIN-SUFFIX,ltheanine.cn,REJECT
+DOMAIN-SUFFIX,lvehaisen.com,REJECT
 DOMAIN-SUFFIX,maipinshangmao.com,REJECT
 DOMAIN-SUFFIX,minisplat.cn,REJECT
 DOMAIN-SUFFIX,mkitgfs.com,REJECT
@@ -162,10 +162,10 @@ IP-CIDR,211.161.101.110/32,REJECT
 IP-CIDR,220.115.251.25/32,REJECT
 IP-CIDR,222.73.156.235/32,REJECT
 
-# Malware 恶意网站
+# Malware
 # > Huawei AspiegelBot
 IP-CIDR,114.119.160.0/21,REJECT
-# > 快压
+# > KuaiZip
 # https://zhuanlan.zhihu.com/p/39534279
 DOMAIN-SUFFIX,kuaizip.com,REJECT
 # > MacKeeper
@@ -176,10 +176,12 @@ DOMAIN-SUFFIX,zryydi.com,REJECT
 # https://www.zhihu.com/question/281163698/answer/441388130
 DOMAIN-SUFFIX,flash.cn,REJECT
 DOMAIN,geo2.adobe.com,REJECT
-# > C&J Marketing 思杰马克丁软件
+# > C&J Marketing
 # https://www.zhihu.com/question/46746200
 DOMAIN-SUFFIX,4009997658.com,REJECT
 DOMAIN-SUFFIX,abbyychina.com,REJECT
+DOMAIN-SUFFIX,alienskins.cn,REJECT
+DOMAIN-SUFFIX,anydeskchina.cn,REJECT
 DOMAIN-SUFFIX,bartender.cc,REJECT
 DOMAIN-SUFFIX,betterzip.net,REJECT
 DOMAIN-SUFFIX,betterzipcn.com,REJECT
@@ -196,12 +198,15 @@ DOMAIN-SUFFIX,earmasterchina.cn,REJECT
 DOMAIN-SUFFIX,easyrecoverychina.com,REJECT
 DOMAIN-SUFFIX,ediuschina.com,REJECT
 DOMAIN-SUFFIX,flstudiochina.com,REJECT
+DOMAIN-SUFFIX,folxchina.cn,REJECT
 DOMAIN-SUFFIX,formysql.com,REJECT
 DOMAIN-SUFFIX,guitarpro.cc,REJECT
 DOMAIN-SUFFIX,huishenghuiying.com.cn,REJECT
+DOMAIN-SUFFIX,hypeapp.cn,REJECT
 DOMAIN-SUFFIX,hypersnap.net,REJECT
 DOMAIN-SUFFIX,iconworkshop.cn,REJECT
 DOMAIN-SUFFIX,idmchina.net,REJECT
+DOMAIN-SUFFIX,imazingchina.com,REJECT
 DOMAIN-SUFFIX,imindmap.cc,REJECT
 DOMAIN-SUFFIX,jihehuaban.com.cn,REJECT
 DOMAIN-SUFFIX,keyshot.cc,REJECT
