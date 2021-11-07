@@ -15,6 +15,9 @@ domain-suffix,hayabusa.io,proxy
 DOMAIN,a248.e.akamai.net,PROXY
 DOMAIN,a771.dscq.akamai.net,PROXY
 
+# > Apple
+DOMAIN,testflight.apple.com,PROXY
+
 # > Amazon
 DOMAIN-SUFFIX,amazon.co.jp,PROXY
 DOMAIN,d3c33hcgiwev3.cloudfront.net,PROXY
@@ -57,6 +60,20 @@ domain-suffix,chocotv.com.tw,proxy
 DOMAIN-SUFFIX,clubhouseapi.com,PROXY
 DOMAIN-SUFFIX,joinclubhouse.com,PROXY
 
+# > Crypto
+DOMAIN-SUFFIX,aex.com,PROXY
+DOMAIN-SUFFIX,bibox.com,PROXY
+DOMAIN-SUFFIX,binance.cc,PROXY
+DOMAIN-SUFFIX,binance.com,PROXY
+DOMAIN-SUFFIX,bitcointalk.org,PROXY
+DOMAIN-SUFFIX,bitfinex.com,PROXY
+DOMAIN-SUFFIX,bitmex.com,PROXY
+DOMAIN-SUFFIX,gate.io,PROXY
+DOMAIN-SUFFIX,huobi.com,PROXY
+DOMAIN-SUFFIX,okex.com,PROXY
+DOMAIN-SUFFIX,uniswap.org,PROXY
+DOMAIN-SUFFIX,zb.com,PROXY
+
 # > Disney Plus
 user-agent,Disney*,proxy
 domain,cdn.registerdisney.go.com,proxy
@@ -65,6 +82,16 @@ domain-suffix,disney-plus.net,proxy
 domain-suffix,dssott.com,proxy
 domain-suffix,bamgrid.com,proxy
 domain-suffix,execute-api.us-east-1.amazonaws.com,proxy
+
+# > Discord
+DOMAIN-SUFFIX,discord.com,PROXY
+DOMAIN-SUFFIX,discordapp.com,PROXY
+DOMAIN-SUFFIX,discordapp.net,PROXY
+
+# > Dropbox
+DOMAIN-SUFFIX,dropbox.com,PROXY
+DOMAIN-SUFFIX,dropboxapi.com,PROXY
+DOMAIN-SUFFIX,dropboxusercontent.com,PROXY
 
 # > Now E
 user-agent,PCCW*,proxy
@@ -117,6 +144,11 @@ IP-CIDR,66.220.144.0/20,proxy,no-resolve
 IP-CIDR,69.171.224.0/19,proxy,no-resolve
 IP-CIDR,69.63.176.0/20,proxy,no-resolve
 IP-CIDR,74.119.76.0/22,proxy,no-resolve
+
+# > Github
+DOMAIN-SUFFIX,github.com,PROXY
+DOMAIN-SUFFIX,github.io,PROXY
+DOMAIN-SUFFIX,githubusercontent.com,PROXY
 
 # > Google
 domain-suffix,ampproject.org,proxy
@@ -192,6 +224,31 @@ IP-CIDR,110.76.140.0/22,proxy,no-resolve
 IP-CIDR,113.61.104.0/22,proxy,no-resolve
 IP-CIDR,27.0.236.0/22,proxy,no-resolve
 
+# > Line
+domain-suffix,lin.ee,proxy
+domain-suffix,line.me,proxy
+domain-suffix,line.naver.jp,proxy
+domain-suffix,line-apps.com,proxy
+domain-suffix,line-cdn.net,proxy
+domain-suffix,line-scdn.net,proxy
+domain-suffix,nhncorp.jp,proxy
+IP-CIDR,103.2.28.0/22,proxy,no-resolve
+IP-CIDR,103.2.30.0/23,PROXY,no-resolve
+IP-CIDR,119.235.224.0/21,proxy,no-resolve
+IP-CIDR,119.235.232.0/23,proxy,no-resolve
+IP-CIDR,119.235.235.0/24,proxy,no-resolve
+IP-CIDR,119.235.236.0/23,proxy,no-resolve
+IP-CIDR,125.6.146.0/24,proxy,no-resolve
+IP-CIDR,125.6.149.0/24,proxy,no-resolve
+IP-CIDR,125.6.190.0/24,proxy,no-resolve
+IP-CIDR,125.209.208.0/20,proxy,no-resolve
+IP-CIDR,147.92.128.0/17,PROXY,no-resolve
+IP-CIDR,203.104.103.0/24,proxy,no-resolve
+IP-CIDR,203.104.128.0/20,proxy,no-resolve
+IP-CIDR,203.104.144.0/21,PROXY,no-resolve
+IP-CIDR,203.174.66.64/26,proxy,no-resolve
+IP-CIDR,203.174.77.0/24,proxy,no-resolve
+
 # > Microsoft proxy
 ;user-agent,OneDrive*,proxy
 ;HOST-KEYWORD,onedrive,proxy
@@ -247,6 +304,36 @@ domain-keyword,spotify,proxy
 domain-suffix,scdn.co,proxy
 domain-suffix,spoti.fi,proxy
 
+# > The New York Times
+DOMAIN-SUFFIX,nyt.com,PROXY
+DOMAIN-SUFFIX,nytchina.com,PROXY
+DOMAIN-SUFFIX,nytcn.me,PROXY
+DOMAIN-SUFFIX,nytco.com,PROXY
+DOMAIN-SUFFIX,nytimes.com,PROXY
+DOMAIN-SUFFIX,nytimg.com,PROXY
+DOMAIN-SUFFIX,nytlog.com,PROXY
+DOMAIN-SUFFIX,nytstyle.com,PROXY
+
+# > Pinterest
+DOMAIN-SUFFIX,pinterest.at,PROXY
+DOMAIN-SUFFIX,pinterest.ca,PROXY
+DOMAIN-SUFFIX,pinterest.co.uk,PROXY
+DOMAIN-SUFFIX,pinterest.com,PROXY
+DOMAIN-SUFFIX,pinterest.de,PROXY
+DOMAIN-SUFFIX,pinterest.fr,PROXY
+DOMAIN-SUFFIX,pinterest.jp,PROXY
+DOMAIN-SUFFIX,pinterest.se,PROXY
+
+# > pixiv
+DOMAIN-SUFFIX,pixiv.net,PROXY
+DOMAIN-SUFFIX,pixiv.org,PROXY
+DOMAIN-SUFFIX,pximg.net,PROXY
+
+# > Reddit
+DOMAIN-SUFFIX,redd.it,PROXY
+DOMAIN-SUFFIX,reddit.com,PROXY
+DOMAIN-SUFFIX,redditmedia.com,PROXY
+
 # > viuTV
 user-agent,ViuTV*,proxy
 domain-suffix,cloudfront.net,proxy
@@ -270,31 +357,6 @@ user-agent,Coinbase*,proxy
 user-agent,Instagram*,proxy
 user-agent,Resilio Sync*,proxy
 user-agent,WhatsApp*,proxy
-
-# > Line
-domain-suffix,lin.ee,proxy
-domain-suffix,line.me,proxy
-domain-suffix,line.naver.jp,proxy
-domain-suffix,line-apps.com,proxy
-domain-suffix,line-cdn.net,proxy
-domain-suffix,line-scdn.net,proxy
-domain-suffix,nhncorp.jp,proxy
-IP-CIDR,103.2.28.0/22,proxy,no-resolve
-IP-CIDR,103.2.30.0/23,PROXY,no-resolve
-IP-CIDR,119.235.224.0/21,proxy,no-resolve
-IP-CIDR,119.235.232.0/23,proxy,no-resolve
-IP-CIDR,119.235.235.0/24,proxy,no-resolve
-IP-CIDR,119.235.236.0/23,proxy,no-resolve
-IP-CIDR,125.6.146.0/24,proxy,no-resolve
-IP-CIDR,125.6.149.0/24,proxy,no-resolve
-IP-CIDR,125.6.190.0/24,proxy,no-resolve
-IP-CIDR,125.209.208.0/20,proxy,no-resolve
-IP-CIDR,147.92.128.0/17,PROXY,no-resolve
-IP-CIDR,203.104.103.0/24,proxy,no-resolve
-IP-CIDR,203.104.128.0/20,proxy,no-resolve
-IP-CIDR,203.104.144.0/21,PROXY,no-resolve
-IP-CIDR,203.174.66.64/26,proxy,no-resolve
-IP-CIDR,203.174.77.0/24,proxy,no-resolve
 
 # > Potato Chat
 IP-CIDR,13.251.24.157/24,proxy,no-resolve
@@ -395,16 +457,6 @@ IP-CIDR,103.102.166.0/24,PROXY
 IP-CIDR,185.15.56.0/22,PROXY
 IP-CIDR,198.35.26.0/23,PROXY
 IP-CIDR,208.80.152.0/22,PROXY
-
-# > Line
-domain-suffix,line.me,proxy
-domain-suffix,line-apps.com,proxy
-domain-suffix,line-scdn.net,proxy
-domain-suffix,naver.jp,proxy
-IP-CIDR,103.2.30.0/23,proxy
-IP-CIDR,125.209.208.0/20,proxy
-IP-CIDR,147.92.128.0/17,proxy
-IP-CIDR,203.104.144.0/21,proxy
 
 # > Other
 DOMAIN-SUFFIX,0rz.tw,PROXY
