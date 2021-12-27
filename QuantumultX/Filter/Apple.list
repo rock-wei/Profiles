@@ -1,5 +1,5 @@
 # Apple rules refresh time: 2021-12-27 01:40:42
-
+# https://github.com/zqzess/rule_for_quantumultX/blob/master/QuantumultX/rules/Apple.list
 USER-AGENT,*com.apple.mobileme.fmip1,Apple
 USER-AGENT,*WeatherFoundation*,Apple
 USER-AGENT,%E5%9C%B0%E5%9B%BE*,Apple
