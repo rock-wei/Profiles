@@ -17,6 +17,16 @@ DOMAIN,a771.dscq.akamai.net,PROXY
 
 # > Apple
 DOMAIN,testflight.apple.com,PROXY
+host,api.smoot.apple.cn,Proxy
+host-suffix,safebrowsing.apple,Proxy
+host-suffix,itunesu.assets.itunes.com,Proxy
+host-suffix,itunes-apple.com.akadns.net,Proxy
+host-suffix,itunes.com.edgekey.net,Proxy
+host,news-assets.apple.com,PROXY
+host,news-client.apple.com,Proxy
+host,news-edge.apple.com,Proxy
+host,news-events.apple.com,Proxy
+host-suffix,apple.news,Proxy
 
 # > Amazon
 DOMAIN-SUFFIX,amazon.co.jp,PROXY
