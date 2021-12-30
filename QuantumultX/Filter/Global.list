@@ -1690,4 +1690,5 @@ DOMAIN-SUFFIX,inkbunny.net,PROXY
 DOMAIN-SUFFIX,metapix.net,PROXY
 DOMAIN,international-gfe.download.nvidia.com,PROXY
 DOMAIN,store-images.s-microsoft.com,PROXY
-
+DOMAIN-SUFFIX,s3.amazonaws.com,PROXY
+DOMAIN-SUFFIX,zaobao.com.sg,PROXY
