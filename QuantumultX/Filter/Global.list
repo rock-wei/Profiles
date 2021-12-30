@@ -71,7 +71,7 @@ DOMAIN-SUFFIX,clubhouseapi.com,PROXY
 DOMAIN-SUFFIX,joinclubhouse.com,PROXY
 
 # > Crypto
-OMAIN-SUFFIX,aex.com,PROXY
+DOMAIN-SUFFIX,aex.com,PROXY
 DOMAIN-SUFFIX,bibox.com,PROXY
 DOMAIN-SUFFIX,binance.cc,PROXY
 DOMAIN-SUFFIX,binance.com,PROXY
