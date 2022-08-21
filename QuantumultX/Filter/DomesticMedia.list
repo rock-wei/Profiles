@@ -83,7 +83,6 @@ IP-CIDR,223.252.199.67/32,DomesticMedia
 # > QQMusic
 USER-AGENT,QQ%e9%9f%b3%e4%b9%90*,DomesticMedia
 USER-AGENT,QQMusic*,DomesticMedia
-DOMAIN-SUFFIX,*music.qq.com,DomesticMedia
 DOMAIN-SUFFIX,y.qq.com,DomesticMedia
 HOST,aqqmusic.tc.qq.com,DomesticMedia
 
