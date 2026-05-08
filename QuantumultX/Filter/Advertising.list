@@ -39,6 +39,7 @@ DOMAIN, ai.taobao.com, REJECT
 DOMAIN, api.waptest.taobao.com, REJECT
 DOMAIN, apoll.m.taobao.com, REJECT
 DOMAIN, c-adash.m.taobao.com, REJECT
+DOMAIN, h-adashx.ut.taobao.com, REJECT
 DOMAIN, m-adash.m.taobao.com, REJECT
 DOMAIN, nbsdk-baichuan.taobao.com, REJECT
 DOMAIN, pics.taobaocdn.com, REJECT
