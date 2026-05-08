@@ -31,7 +31,6 @@ DOMAIN, acs4baichuan.m.taobao.com, REJECT
 DOMAIN, adash.m.taobao.com, REJECT
 DOMAIN, adashbc.m.taobao.com, REJECT
 DOMAIN, adashbc.ut.taobao.com, REJECT
-DOMAIN, adashx.m.taobao.com, REJECT
 DOMAIN, adashxgc.ut.taobao.com, REJECT
 DOMAIN, agoodm.m.taobao.com, REJECT
 DOMAIN, ai.m.taobao.com, REJECT
@@ -2020,7 +2019,6 @@ DOMAIN-SUFFIX,am15.net,REJECT
 DOMAIN-SUFFIX,amazon-adsystem.com,REJECT
 DOMAIN-SUFFIX,amoad.com,REJECT
 DOMAIN-SUFFIX,amazingmagics.com,REJECT
-DOMAIN-SUFFIX,amdc.m.taobao.com,REJECT
 DOMAIN-SUFFIX,amfi.gou.sogou.com,REJECT
 DOMAIN-SUFFIX,amiok.org,REJECT
 DOMAIN-SUFFIX,amobee.com,REJECT
